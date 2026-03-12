@@ -1,0 +1,1201 @@
+<!doctype html>
+<html lang="de" data-bs-theme="auto">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Özgün Cakir</title>
+    <meta
+      name="description"
+      content="Als Data Analyst aus Düsseldorf, arbeite ich mit Power BI, SQL und Python, um aus Daten handlungsorientierte Erkenntnisse zu gewinnen."
+    />
+    <meta name="theme-color" content="#234E5A" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="google" content="notranslate" />
+    <link rel="icon" sizes="96x96" href="assets/main/favicon-96x96.webp" />
+    <link rel="stylesheet" href="style/style.css" />
+    <link rel="stylesheet" href="style/dark-mode.css" />
+    <link rel="stylesheet" href="style/hover-min.css" />
+    <link rel="stylesheet" href="style/screen-sizes.css" />
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4/dist/chart.umd.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-adapter-date-fns@3/dist/chartjs-adapter-date-fns.bundle.min.js"></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div
+      id="navbar-main"
+      class="navigation-bar"
+      data-collapse="medium"
+      data-animation="default"
+      data-duration="400"
+      data-no-scroll="1"
+      data-easing="ease"
+      data-easing2="ease"
+      role="banner"
+    >
+      <div class="content-nav">
+        <nav class="navbar nav-pills d-flex justify-content-center">
+          <a class="navbar-brand" href="#">
+            <img src="assets/main/favicon-256x256.webp" height="32px" width="32px" alt="Ö Logo" />
+          </a>
+          <a href="#Start" class="nav-link my-1">Übersicht</a>
+          <a href="#BeruflicheLaufbahn" class="nav-link my-1">Berufliche Laufbahn</a>
+          <a href="#Zertifikate" class="nav-link my-1">Zertifikate</a>
+          <a href="#Bildungsweg" class="nav-link my-1">Bildungsweg</a>
+          <a href="#Kontakt" class="nav-link my-1">Kontakt</a>
+          <button
+            id="theme-toggle"
+            class="hide-on-mobile nav-link my-1"
+            style="
+              background: none;
+              border: none;
+              color: #fff;
+              cursor: pointer;
+              padding: 8px 10px !important;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+            "
+            aria-label="Dark Mode aktivieren"
+          ></button>
+        </nav>
+      </div>
+    </div>
+    <div
+      data-bs-spy="scroll"
+      data-bs-target="#navbar-main"
+      data-bs-smooth-scroll="true"
+      class="scrollspy-example-2"
+      tabindex="0"
+      proximity-scroll-snapping
+    >
+      <div id="home" class="banner">
+        <div class="hero-title-wrapper">
+          <div class="hvr-grow">
+            <img
+              src="assets/main/profile-picture.webp"
+              sizes="(max-width: 767px) 300px, (max-width: 991px) 30vw, 22vw"
+              width="300"
+              alt="mein Profilbild"
+              class="image"
+              draggable="false"
+              unselectable="on"
+            />
+          </div>
+          <div>
+            <h1 class="hero-heading hvr-grow" style="color: #fff">Hallo, ich bin Özgün.<br />Data Analyst.<br /></h1>
+          </div>
+        </div>
+        <div class="contact-btn-wrapper">
+          <a href="#Kontakt" class="hvr-grow contact-btn">Kontakt aufnehmen</a>
+        </div>
+      </div>
+      <div id="Start" class="seite tab-content">
+        <div class="seitentitel">Übersicht</div>
+        <div class="seiteninhalte">
+          <div class="row align-items-start">
+            <div class="col-md-5">
+              <div class="boxen">
+                <h4>Technische Fähigkeiten</h4>
+                <a href="pages/skills.html#skills-sql" style="color: inherit">
+                  <div class="hvr-shrink d-flex align-items-center gap-3">
+                    <img
+                      src="assets/icons/sql.svg"
+                      width="32"
+                      height="32"
+                      style="flex-shrink: 0"
+                      alt=""
+                      draggable="false"
+                    />
+                    <div style="flex: 1; min-width: 0">
+                      <h5 class="mb-1">SQL</h5>
+                      <div class="progress">
+                        <div
+                          class="progress-bar"
+                          role="progressbar"
+                          style="width: 95%"
+                          aria-valuenow="95"
+                          aria-valuemin="0"
+                          aria-valuemax="100"
+                        ></div>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+                <a href="pages/skills.html#skills-powerbi" style="color: inherit">
+                  <div class="hvr-shrink d-flex align-items-center gap-3">
+                    <img
+                      src="assets/icons/powerbi.svg"
+                      width="32"
+                      height="32"
+                      style="flex-shrink: 0"
+                      alt=""
+                      draggable="false"
+                    />
+                    <div style="flex: 1; min-width: 0">
+                      <h5 class="mb-1">Power BI</h5>
+                      <div class="progress">
+                        <div
+                          class="progress-bar"
+                          role="progressbar"
+                          style="width: 97%"
+                          aria-valuenow="97"
+                          aria-valuemin="0"
+                          aria-valuemax="100"
+                        ></div>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+                <a href="pages/skills.html#skills-python" style="color: inherit">
+                  <div class="hvr-shrink d-flex align-items-center gap-3">
+                    <img
+                      src="assets/icons/python.svg"
+                      width="32"
+                      height="32"
+                      style="flex-shrink: 0"
+                      alt=""
+                      draggable="false"
+                    />
+                    <div style="flex: 1; min-width: 0">
+                      <h5 class="mb-1">Python</h5>
+                      <div class="progress">
+                        <div
+                          class="progress-bar"
+                          role="progressbar"
+                          style="width: 70%"
+                          aria-valuenow="70"
+                          aria-valuemin="0"
+                          aria-valuemax="100"
+                        ></div>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+                <a href="pages/skills.html#skills-git" style="color: inherit">
+                  <div class="hvr-shrink d-flex align-items-center gap-3">
+                    <img
+                      src="assets/icons/git.svg"
+                      width="32"
+                      height="32"
+                      style="flex-shrink: 0"
+                      alt=""
+                      draggable="false"
+                    />
+                    <div style="flex: 1; min-width: 0">
+                      <h5 class="mb-1">Git</h5>
+                      <div class="progress">
+                        <div
+                          class="progress-bar"
+                          role="progressbar"
+                          style="width: 92%"
+                          aria-valuenow="92"
+                          aria-valuemin="0"
+                          aria-valuemax="100"
+                        ></div>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+                <a href="pages/skills.html#skills-excel" style="color: inherit">
+                  <div class="hvr-shrink d-flex align-items-center gap-3">
+                    <img
+                      src="assets/icons/excel.svg"
+                      width="32"
+                      height="32"
+                      style="flex-shrink: 0"
+                      alt=""
+                      draggable="false"
+                    />
+                    <div style="flex: 1; min-width: 0">
+                      <h5 class="mb-1">Excel</h5>
+                      <div class="progress">
+                        <div
+                          class="progress-bar"
+                          role="progressbar"
+                          style="width: 60%"
+                          aria-valuenow="60"
+                          aria-valuemin="0"
+                          aria-valuemax="100"
+                        ></div>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+                <a href="pages/skills.html#skills-powerpoint" style="color: inherit">
+                  <div class="hvr-shrink d-flex align-items-center gap-3">
+                    <img
+                      src="assets/icons/powerpoint.svg"
+                      width="32"
+                      height="32"
+                      style="flex-shrink: 0"
+                      alt=""
+                      draggable="false"
+                    />
+                    <div style="flex: 1; min-width: 0">
+                      <h5 class="mb-1">PowerPoint</h5>
+                      <div class="progress">
+                        <div
+                          class="progress-bar"
+                          role="progressbar"
+                          style="width: 55%"
+                          aria-valuenow="55"
+                          aria-valuemin="0"
+                          aria-valuemax="100"
+                        ></div>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+                <a href="pages/skills.html#skills-streamlit" style="color: inherit">
+                  <div class="hvr-shrink d-flex align-items-center gap-3">
+                    <img
+                      src="assets/icons/streamlit.svg"
+                      width="32"
+                      height="32"
+                      style="flex-shrink: 0"
+                      alt=""
+                      draggable="false"
+                    />
+                    <div style="flex: 1; min-width: 0">
+                      <h5 class="mb-1">Streamlit</h5>
+                      <div class="progress">
+                        <div
+                          class="progress-bar"
+                          role="progressbar"
+                          style="width: 65%"
+                          aria-valuenow="65"
+                          aria-valuemin="0"
+                          aria-valuemax="100"
+                        ></div>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+                <a href="pages/skills.html#skills-htmlcss" style="color: inherit">
+                  <div class="hvr-shrink d-flex align-items-center gap-3">
+                    <img
+                      src="assets/icons/html.svg"
+                      width="32"
+                      height="32"
+                      style="flex-shrink: 0"
+                      alt=""
+                      draggable="false"
+                    />
+                    <div style="flex: 1; min-width: 0">
+                      <h5 class="mb-1">HTML & CSS</h5>
+                      <div class="progress">
+                        <div
+                          class="progress-bar"
+                          role="progressbar"
+                          style="width: 45%"
+                          aria-valuenow="45"
+                          aria-valuemin="0"
+                          aria-valuemax="100"
+                        ></div>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+                <a href="pages/skills.html#skills-tableau" style="color: inherit">
+                  <div class="hvr-shrink d-flex align-items-center gap-3">
+                    <img
+                      src="assets/icons/tableau.svg"
+                      width="32"
+                      height="32"
+                      style="flex-shrink: 0"
+                      alt=""
+                      draggable="false"
+                    />
+                    <div style="flex: 1; min-width: 0">
+                      <h5 class="mb-1">Tableau</h5>
+                      <div class="progress">
+                        <div
+                          class="progress-bar"
+                          role="progressbar"
+                          style="width: 25%"
+                          aria-valuenow="25"
+                          aria-valuemin="0"
+                          aria-valuemax="100"
+                        ></div>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+                <a
+                  id="skills-button"
+                  href="pages/skills.html"
+                  class="language-toggle hvr-shrink"
+                  role="button"
+                  style="margin-top: 20px"
+                >
+                  mehr hierzu lesen
+                </a>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="boxen hvr-shrink">
+                <h4>Profil</h4>
+                <div class="d-flex flex-wrap gap-2 mt-2">
+                  <span class="profil-pill">Datenanalyse</span>
+                  <span class="profil-pill">Datenvisualisierung</span>
+                  <span class="profil-pill">ETL-Pipelines</span>
+                  <span class="profil-pill">Data Storytelling</span>
+                </div>
+              </div>
+              <div class="boxen hvr-shrink">
+                <a href="#BeruflicheLaufbahn" style="color: inherit; text-decoration: none">
+                  <h4 class="text-center mb-1">Berufserfahrung</h4>
+                  <h5 id="years_experience" class="text-center mb-2" style="font-size: 1rem"></h5>
+                </a>
+                <div style="height: 150px; position: relative">
+                  <canvas id="careerChart"></canvas>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <a href="#Bildungsweg" style="color: inherit">
+                <div class="boxen hvr-shrink text-center">
+                  <h4 class="mt-2" style="margin-top: 0 !important">Studium</h4>
+                  <table
+                    class="sprachen-table w-100 mt-2"
+                    style="border-spacing: 0 10px; font-size: 1.05rem; font-weight: 500"
+                  >
+                    <tr>
+                      <td>BWL B.Sc.</td>
+                      <td class="text-end fw-light">HHU Düsseldorf</td>
+                    </tr>
+                  </table>
+                </div>
+              </a>
+              <a href="#Zertifikate" style="color: inherit">
+                <div class="boxen hvr-shrink">
+                  <h4>Zertifikate</h4>
+                  <table
+                    class="sprachen-table w-100 mt-2"
+                    style="border-spacing: 0 10px; font-size: 1.05rem; font-weight: 500"
+                  >
+                    <tr>
+                      <td>DataCamp</td>
+                      <td class="text-end fw-light">Data Analyst</td>
+                    </tr>
+                    <tr>
+                      <td>ExcelHero</td>
+                      <td class="text-end fw-light">Excel Kurs</td>
+                    </tr>
+                    <tr style="margin-bottom: 0">
+                      <td>Google</td>
+                      <td class="text-end fw-light">Data Analytics</td>
+                    </tr>
+                  </table>
+                </div>
+              </a>
+              <div class="boxen bottom hvr-shrink">
+                <h4>Sprachen</h4>
+                <table
+                  class="sprachen-table w-100 mt-2"
+                  style="border-spacing: 0 10px; font-size: 1.05rem; font-weight: 500"
+                >
+                  <tr>
+                    <td>Deutsch</td>
+                    <td class="text-end fw-light">Muttersprache</td>
+                  </tr>
+                  <tr>
+                    <td>Englisch</td>
+                    <td class="text-end fw-light">Verhandlungssicher</td>
+                  </tr>
+                  <tr>
+                    <td>Türkisch</td>
+                    <td class="text-end fw-light">Fließend</td>
+                  </tr>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="BeruflicheLaufbahn" class="seite tab-content">
+        <div class="seitentitel">Berufliche Laufbahn</div>
+        <div class="seiteninhalte">
+          <div class="col align-items-start">
+            <div class="row align-items-start">
+              <div class="col-md-3">
+                <div class="boxen institution hvr-shrink">
+                  <picture>
+                    <source
+                      srcset="assets/logos/axa_logo_dark.webp"
+                      media="(prefers-color-scheme: dark)"
+                      alt="Logo von AXA"
+                      draggable="false"
+                      height="60px"
+                      class="institution-logo"
+                    />
+                    <img
+                      src="assets/logos/axa_logo_light.webp"
+                      alt="Logo von AXA"
+                      draggable="false"
+                      height="60px"
+                      class="institution-logo"
+                    />
+                  </picture>
+                  <br />
+                  <strong>AXA</strong><br />
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="13"
+                    height="13"
+                    fill="currentColor"
+                    class="bi bi-geo-alt-fill"
+                    viewBox="0 0 16 16"
+                    style="opacity: 0.6; margin-right: 3px; vertical-align: middle"
+                  >
+                    <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10m0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6" /></svg
+                  >Köln<br />
+                </div>
+              </div>
+              <div class="col-md-9">
+                <div class="boxen">
+                  <h5 class="mobile-center mb-0">Data Analyst</h5>
+                  <p class="fw-light title-job" style="margin-bottom: 0">Juli 2022 - heute</p>
+                  <div id="dateDifference" class="fw-light title-job subtitle" style="font-size: small"></div>
+                  <p class="fw-light title-job subtitle" style="font-size: small">
+                    AXA Deutschland › Sachversicherung › Schaden › Analytik & Steuerung
+                  </p>
+                  <ul>
+                    <li>
+                      Analyse und Aufbereitung von Schadendaten zur Unterstützung strategischer und operativer
+                      Entscheidungen
+                    </li>
+                    <li>
+                      Aufbau von PowerBI-Dashboards mit etwa 200 Aufrufen täglich, die Ad-hoc-Anfragen deutlich
+                      reduzierten
+                    </li>
+                    <li>
+                      Gestaltung und Optimierung von ETL-Prozessen in Snowflake zur automatisierten Datenbereitstellung
+                      mit integrierten Datenqualitätsprüfungen und Scheduling
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="row align-items-start">
+              <div class="col-md-3">
+                <div class="boxen institution bottom hvr-shrink">
+                  <picture>
+                    <source
+                      srcset="assets/logos/henkel_logo_dark.webp"
+                      media="(prefers-color-scheme: dark)"
+                      alt="Logo von Henkel"
+                      draggable="false"
+                      height="60px"
+                      class="institution-logo"
+                    />
+                    <img
+                      src="assets/logos/henkel_logo_light.webp"
+                      alt="Logo von Henkel"
+                      draggable="false"
+                      height="60px"
+                      width="auto"
+                      class="institution-logo"
+                    />
+                  </picture>
+                  <br />
+                  <strong>Henkel</strong><br />
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="13"
+                    height="13"
+                    fill="currentColor"
+                    class="bi bi-geo-alt-fill"
+                    viewBox="0 0 16 16"
+                    style="opacity: 0.6; margin-right: 3px; vertical-align: middle"
+                  >
+                    <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10m0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6" /></svg
+                  >Düsseldorf<br />
+                </div>
+              </div>
+              <div class="col-md-9">
+                <div class="boxen bottom">
+                  <h5 class="mobile-center mb-0">Data Entry</h5>
+                  <span class="mobile-center badge mb-0">Praktikum</span>
+                  <p class="fw-light title-job" style="margin-bottom: 0">Dezember 2021 - Juni 2022</p>
+                  <div class="fw-light title-job subtitle" style="font-size: small">6 Monate</div>
+                  <p class="fw-light title-job subtitle" style="font-size: small">
+                    Henkel Deutschland › Adhesive Technologies › Customer Service › Automotive & Aerospace
+                  </p>
+                  <ul>
+                    <li>Selbstständige Leitung eines Projektes, um Kunden-Stammdaten-Qualität zu erhöhen</li>
+                    <ul>
+                      <li>Erhebung von Daten zu Ansprechpartnern der Kunden aus SAP-ERP und weiteren Quellen</li>
+                      <li>Datenaufbereitung für Upload in SAP-Service-Cloud und Einführung der Salesforce CRM</li>
+                    </ul>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="Zertifikate" class="seite tab-content">
+        <div class="seitentitel">Zertifikate</div>
+        <div class="seiteninhalte">
+          <div class="col align-items-start">
+            <div class="row align-items-start">
+              <div class="col-md-3">
+                <div class="boxen institution hvr-shrink">
+                  <picture>
+                    <source
+                      srcset="assets/logos/datacamp_logo_dark.webp"
+                      media="(prefers-color-scheme: dark)"
+                      alt="Logo von DataCamp"
+                      draggable="false"
+                      height="28px"
+                      class="institution-logo"
+                    />
+                    <img
+                      src="assets/logos/datacamp_logo_light.webp"
+                      alt="Logo von DataCamp"
+                      draggable="false"
+                      height="28px"
+                      class="institution-logo"
+                    />
+                  </picture>
+                  <br />
+                  <strong>DataCamp</strong>
+                  <a
+                    href="https://www.datacamp.com"
+                    target="_blank"
+                    style="
+                      display: flex;
+                      align-items: center;
+                      justify-content: center;
+                      opacity: 0.7;
+                      font-size: 0.85rem;
+                    "
+                    ><svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="13"
+                      height="13"
+                      fill="currentColor"
+                      class="bi bi-globe2"
+                      viewBox="0 0 16 16"
+                      style="margin-right: 4px; flex-shrink: 0"
+                    >
+                      <path
+                        d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8m7.5-6.923c-.67.204-1.335.82-1.887 1.855A8 8 0 0 0 5.145 4H7.5zM4.09 4a9.3 9.3 0 0 1 .64-1.539 7 7 0 0 1 .597-.933A7.03 7.03 0 0 0 2.255 4zm-.582 3.5c.03-.877.138-1.718.312-2.5H1.674a6.96 6.96 0 0 0-.656 2.5zM4.847 5a12.5 12.5 0 0 0-.338 2.5H7.5V5zM8.5 5v2.5h2.99a12.5 12.5 0 0 0-.337-2.5zM4.51 8.5a12.5 12.5 0 0 0 .337 2.5H7.5V8.5zm3.99 0V11h2.653c.187-.765.306-1.608.338-2.5zM5.145 12q.208.58.468 1.068c.552 1.035 1.218 1.65 1.887 1.855V12zm.182 2.472a7 7 0 0 1-.597-.933A9.3 9.3 0 0 1 4.09 12H2.255a7.03 7.03 0 0 0 2.872 2.472M3.82 11a13.7 13.7 0 0 1-.312-2.5h-2.49c.062.89.291 1.733.656 2.5zm6.853 3.472A7.03 7.03 0 0 0 13.745 12H11.91a9.3 9.3 0 0 1-.64 1.539 7 7 0 0 1-.597.933M8.5 12v2.923c.67-.204 1.335-.82 1.887-1.855q.26-.487.468-1.068zm3.68-1h2.146c.365-.767.594-1.61.656-2.5h-2.49a13.7 13.7 0 0 1-.312 2.5m2.802-3.5a6.96 6.96 0 0 0-.656-2.5H12.18c.174.782.282 1.623.312 2.5zM11.27 2.461c.247.464.462.98.64 1.539h1.835a7.03 7.03 0 0 0-2.872-2.472c.215.28.418.597.597.933M10.855 4a8 8 0 0 0-.468-1.068C9.835 1.897 9.17 1.282 8.5 1.077V4z"
+                      /></svg
+                    >datacamp.com</a
+                  >
+                </div>
+              </div>
+              <div class="col-md-9">
+                <div class="boxen">
+                  <h5 class="mobile-center mb-0">Data Analyst Professional</h5>
+                  <p class="fw-light title-job" style="margin-bottom: 0">November 2021</p>
+                  <div class="fw-light title-job subtitle" style="font-size: small">2 Monate</div>
+                  <li class="list-group-item d-flex align-items-center" style="margin-bottom: 8px">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      fill="currentColor"
+                      class="bi bi-code-slash me-2"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        d="M10.478 1.647a.5.5 0 1 0-.956-.294l-4 13a.5.5 0 0 0 .956.294l4-13zM4.854 4.146a.5.5 0 0 1 0 .708L1.707 8l3.147 3.146a.5.5 0 0 1-.708.708l-3.5-3.5a.5.5 0 0 1 0-.708l3.5-3.5a.5.5 0 0 1 .708 0zm6.292 0a.5.5 0 0 0 0 .708L14.293 8l-3.147 3.146a.5.5 0 0 0 .708.708l3.5-3.5a.5.5 0 0 0 0-.708l-3.5-3.5a.5.5 0 0 0-.708 0z"
+                      />
+                    </svg>
+                    Python, SQL
+                  </li>
+                  <ul>
+                    <li>Zertifizierung zum Data Analyst mit Schwerpunkten SQL und Python</li>
+                    <li>
+                      Python: Datenimport, -bereinigung und -visualisierung mit Pandas, NumPy, Matplotlib, Seaborn
+                    </li>
+                    <li>SQL: Syntax, Joins, Window Functions, CTEs</li>
+                  </ul>
+                  <a
+                    href="https://www.datacamp.com/certificate/DA0019920646026"
+                    class="language-toggle"
+                    role="button"
+                    target="_blank"
+                    style="display: inline-flex; width: 100%; align-items: center; justify-content: center; gap: 6px"
+                    ><svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="14"
+                      height="14"
+                      fill="currentColor"
+                      class="bi bi-box-arrow-up-right"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5"
+                      />
+                      <path
+                        fill-rule="evenodd"
+                        d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0z"
+                      /></svg
+                    >zum Zertifikat</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="row align-items-start">
+              <div class="col-md-3">
+                <div class="boxen institution hvr-shrink">
+                  <picture>
+                    <source
+                      srcset="assets/logos/excelhero_logo_dark.webp"
+                      media="(prefers-color-scheme: dark)"
+                      alt="Logo von ExcelHero"
+                      draggable="false"
+                      height="28px"
+                      class="institution-logo"
+                    />
+                    <img
+                      src="assets/logos/excelhero_logo_light.webp"
+                      alt="Logo von ExcelHero"
+                      draggable="false"
+                      height="28px"
+                      class="institution-logo"
+                    />
+                  </picture>
+                  <br />
+                  <strong>ExcelHero</strong>
+                  <a
+                    href="https://excelhero.de"
+                    target="_blank"
+                    style="
+                      display: flex;
+                      align-items: center;
+                      justify-content: center;
+                      opacity: 0.7;
+                      font-size: 0.85rem;
+                    "
+                    ><svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="13"
+                      height="13"
+                      fill="currentColor"
+                      class="bi bi-globe2"
+                      viewBox="0 0 16 16"
+                      style="margin-right: 4px; flex-shrink: 0"
+                    >
+                      <path
+                        d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8m7.5-6.923c-.67.204-1.335.82-1.887 1.855A8 8 0 0 0 5.145 4H7.5zM4.09 4a9.3 9.3 0 0 1 .64-1.539 7 7 0 0 1 .597-.933A7.03 7.03 0 0 0 2.255 4zm-.582 3.5c.03-.877.138-1.718.312-2.5H1.674a6.96 6.96 0 0 0-.656 2.5zM4.847 5a12.5 12.5 0 0 0-.338 2.5H7.5V5zM8.5 5v2.5h2.99a12.5 12.5 0 0 0-.337-2.5zM4.51 8.5a12.5 12.5 0 0 0 .337 2.5H7.5V8.5zm3.99 0V11h2.653c.187-.765.306-1.608.338-2.5zM5.145 12q.208.58.468 1.068c.552 1.035 1.218 1.65 1.887 1.855V12zm.182 2.472a7 7 0 0 1-.597-.933A9.3 9.3 0 0 1 4.09 12H2.255a7.03 7.03 0 0 0 2.872 2.472M3.82 11a13.7 13.7 0 0 1-.312-2.5h-2.49c.062.89.291 1.733.656 2.5zm6.853 3.472A7.03 7.03 0 0 0 13.745 12H11.91a9.3 9.3 0 0 1-.64 1.539 7 7 0 0 1-.597.933M8.5 12v2.923c.67-.204 1.335-.82 1.887-1.855q.26-.487.468-1.068zm3.68-1h2.146c.365-.767.594-1.61.656-2.5h-2.49a13.7 13.7 0 0 1-.312 2.5m2.802-3.5a6.96 6.96 0 0 0-.656-2.5H12.18c.174.782.282 1.623.312 2.5zM11.27 2.461c.247.464.462.98.64 1.539h1.835a7.03 7.03 0 0 0-2.872-2.472c.215.28.418.597.597.933M10.855 4a8 8 0 0 0-.468-1.068C9.835 1.897 9.17 1.282 8.5 1.077V4z"
+                      /></svg
+                    >excelhero.de</a
+                  >
+                </div>
+              </div>
+              <div class="col-md-9">
+                <div class="boxen">
+                  <h5 class="mobile-center mb-0">Excel Kurs Komplettpaket</h5>
+                  <p class="fw-light title-job" style="margin-bottom: 0">Dezember 2021</p>
+                  <div class="fw-light title-job subtitle" style="font-size: small">2 Monate</div>
+                  <li class="list-group-item d-flex align-items-center" style="margin-bottom: 8px">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      fill="currentColor"
+                      class="bi bi-code-slash me-2"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        d="M10.478 1.647a.5.5 0 1 0-.956-.294l-4 13a.5.5 0 0 0 .956.294l4-13zM4.854 4.146a.5.5 0 0 1 0 .708L1.707 8l3.147 3.146a.5.5 0 0 1-.708.708l-3.5-3.5a.5.5 0 0 1 0-.708l3.5-3.5a.5.5 0 0 1 .708 0zm6.292 0a.5.5 0 0 0 0 .708L14.293 8l-3.147 3.146a.5.5 0 0 0 .708.708l3.5-3.5a.5.5 0 0 0 0-.708l-3.5-3.5a.5.5 0 0 0-.708 0z"
+                      />
+                    </svg>
+                    Excel
+                  </li>
+                  <ul>
+                    <li>Fokus aus Formeln, Funktionen, Pivot-Tabellen und Datenvisualisierung</li>
+                    <li>Kapitel zu Power Query und DAX</li>
+                    <li>VBA-Grundlagen: Fokus auf Makrorekorder</li>
+                  </ul>
+                  <a
+                    href="https://www.udemy.com/certificate/UC-a7d42aff-2a78-444c-be68-d48389cd3465/?utm_source=sendgrid.com&utm_medium=email&utm_campaign=email"
+                    class="language-toggle"
+                    role="button"
+                    target="_blank"
+                    style="display: inline-flex; width: 100%; align-items: center; justify-content: center; gap: 6px"
+                    ><svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="14"
+                      height="14"
+                      fill="currentColor"
+                      class="bi bi-box-arrow-up-right"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5"
+                      />
+                      <path
+                        fill-rule="evenodd"
+                        d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0z"
+                      /></svg
+                    >zum Zertifikat</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="row align-items-start">
+              <div class="col-md-3">
+                <div class="boxen institution hvr-shrink">
+                  <picture>
+                    <source
+                      srcset="assets/logos/google_logo_dark.webp"
+                      media="(prefers-color-scheme: dark)"
+                      alt="Logo von Google"
+                      draggable="false"
+                      height="28px"
+                      class="institution-logo"
+                    />
+                    <img
+                      src="assets/logos/google_logo_light.webp"
+                      alt="Logo von Google"
+                      draggable="false"
+                      height="28px"
+                      class="institution-logo"
+                    />
+                  </picture>
+                  <br />
+                  <strong>Google</strong>
+                  <a
+                    href="https://grow.google/intl/de/"
+                    target="_blank"
+                    style="
+                      display: flex;
+                      align-items: center;
+                      justify-content: center;
+                      opacity: 0.7;
+                      font-size: 0.85rem;
+                    "
+                    ><svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="13"
+                      height="13"
+                      fill="currentColor"
+                      class="bi bi-globe2"
+                      viewBox="0 0 16 16"
+                      style="margin-right: 4px; flex-shrink: 0"
+                    >
+                      <path
+                        d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8m7.5-6.923c-.67.204-1.335.82-1.887 1.855A8 8 0 0 0 5.145 4H7.5zM4.09 4a9.3 9.3 0 0 1 .64-1.539 7 7 0 0 1 .597-.933A7.03 7.03 0 0 0 2.255 4zm-.582 3.5c.03-.877.138-1.718.312-2.5H1.674a6.96 6.96 0 0 0-.656 2.5zM4.847 5a12.5 12.5 0 0 0-.338 2.5H7.5V5zM8.5 5v2.5h2.99a12.5 12.5 0 0 0-.337-2.5zM4.51 8.5a12.5 12.5 0 0 0 .337 2.5H7.5V8.5zm3.99 0V11h2.653c.187-.765.306-1.608.338-2.5zM5.145 12q.208.58.468 1.068c.552 1.035 1.218 1.65 1.887 1.855V12zm.182 2.472a7 7 0 0 1-.597-.933A9.3 9.3 0 0 1 4.09 12H2.255a7.03 7.03 0 0 0 2.872 2.472M3.82 11a13.7 13.7 0 0 1-.312-2.5h-2.49c.062.89.291 1.733.656 2.5zm6.853 3.472A7.03 7.03 0 0 0 13.745 12H11.91a9.3 9.3 0 0 1-.64 1.539 7 7 0 0 1-.597.933M8.5 12v2.923c.67-.204 1.335-.82 1.887-1.855q.26-.487.468-1.068zm3.68-1h2.146c.365-.767.594-1.61.656-2.5h-2.49a13.7 13.7 0 0 1-.312 2.5m2.802-3.5a6.96 6.96 0 0 0-.656-2.5H12.18c.174.782.282 1.623.312 2.5zM11.27 2.461c.247.464.462.98.64 1.539h1.835a7.03 7.03 0 0 0-2.872-2.472c.215.28.418.597.597.933M10.855 4a8 8 0 0 0-.468-1.068C9.835 1.897 9.17 1.282 8.5 1.077V4z"
+                      /></svg
+                    >grow.google</a
+                  >
+                </div>
+              </div>
+              <div class="col-md-9">
+                <div class="boxen bottom">
+                  <h5 class="mobile-center mb-0">Data Analytics Professional</h5>
+                  <p class="fw-light title-job" style="margin-bottom: 0">April 2022</p>
+                  <div class="fw-light title-job subtitle" style="font-size: small">4 Monate</div>
+                  <li class="list-group-item d-flex align-items-center" style="margin-bottom: 8px">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      fill="currentColor"
+                      class="bi bi-code-slash me-2"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        d="M10.478 1.647a.5.5 0 1 0-.956-.294l-4 13a.5.5 0 0 0 .956.294l4-13zM4.854 4.146a.5.5 0 0 1 0 .708L1.707 8l3.147 3.146a.5.5 0 0 1-.708.708l-3.5-3.5a.5.5 0 0 1 0-.708l3.5-3.5a.5.5 0 0 1 .708 0zm6.292 0a.5.5 0 0 0 0 .708L14.293 8l-3.147 3.146a.5.5 0 0 0 .708.708l3.5-3.5a.5.5 0 0 0 0-.708l-3.5-3.5a.5.5 0 0 0-.708 0z"
+                      />
+                    </svg>
+                    SQL, Excel, Tableau, R
+                  </li>
+                  <ul>
+                    <li>SQL mit Google BigQuery</li>
+                    <li>Tableau mit Erarbeitung eigener Dashboards</li>
+                    <li>R: Ergänzung zum Studiumswissen</li>
+                    <li>Theoretischer Fokus: strukturiertes Denken und Rolle des Data Analysts</li>
+                  </ul>
+                  <a
+                    href="https://www.credly.com/badges/93a36b78-e612-471f-979f-befd4455c185/public_url"
+                    class="language-toggle"
+                    role="button"
+                    target="_blank"
+                    style="display: inline-flex; width: 100%; align-items: center; justify-content: center; gap: 6px"
+                    ><svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="14"
+                      height="14"
+                      fill="currentColor"
+                      class="bi bi-box-arrow-up-right"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5"
+                      />
+                      <path
+                        fill-rule="evenodd"
+                        d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0z"
+                      /></svg
+                    >zum Zertifikat</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="Bildungsweg" class="seite tab-content">
+        <div class="seitentitel">Bildungsweg</div>
+        <div class="seiteninhalte">
+          <div class="col align-items-start">
+            <div class="row align-items-start">
+              <div class="col-md-3">
+                <div class="boxen institution hvr-shrink">
+                  <picture>
+                    <source
+                      srcset="assets/logos/hhu_logo_dark.webp"
+                      media="(prefers-color-scheme: dark)"
+                      alt="Logo von der HHU"
+                      draggable="false"
+                      height="20px"
+                      class="institution-logo"
+                    />
+                    <img
+                      src="assets/logos/hhu_logo_light.webp"
+                      alt="Logo von der HHU"
+                      draggable="false"
+                      height="20px"
+                      class="institution-logo"
+                    />
+                  </picture>
+                  <br />
+                  <strong>Heinrich-Heine-Universität</strong><br />
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="13"
+                    height="13"
+                    fill="currentColor"
+                    class="bi bi-geo-alt-fill"
+                    viewBox="0 0 16 16"
+                    style="opacity: 0.6; margin-right: 3px; vertical-align: middle"
+                  >
+                    <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10m0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6" /></svg
+                  >Düsseldorf<br />
+                </div>
+              </div>
+              <div class="col-md-9">
+                <div class="boxen hvr-shrink">
+                  <span class="h5 title-job">Betriebswirtschaftslehre B.Sc.</span>
+                  <p class="fw-light title-job subtitle">Oktober 2017 – September 2021</p>
+                  <ul>
+                    <li>Notendurchschnitt: 2,2</li>
+                    <li>
+                      Wahlpflichtmodule: Accounting, Praxisseminar Accounting, Management, Datenanalyse, Ökonometrie
+                    </li>
+                    <li>
+                      Bachelorarbeit: That's too much Information!? Was Big Data für Controlling und Controller bedeutet
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="row align-items-start">
+              <div class="col-md-3">
+                <div class="boxen institution bottom hvr-shrink">
+                  <picture>
+                    <source
+                      srcset="assets/logos/horkesgath_gymnasium_logo_dark.webp"
+                      media="(prefers-color-scheme: dark)"
+                      alt="Logo vom Gymnasium Horkesgath"
+                      draggable="false"
+                      height="20px"
+                      class="institution-logo"
+                    />
+                    <img
+                      src="assets/logos/horkesgath_gymnasium_logo_light.webp"
+                      alt="Logo vom Gymnasium Horkesgath"
+                      draggable="false"
+                      height="20px"
+                      class="institution-logo"
+                    />
+                  </picture>
+                  <br />
+                  <strong>Gymnasium Horkesgath</strong><br />
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="13"
+                    height="13"
+                    fill="currentColor"
+                    class="bi bi-geo-alt-fill"
+                    viewBox="0 0 16 16"
+                    style="opacity: 0.6; margin-right: 3px; vertical-align: middle"
+                  >
+                    <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10m0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6" /></svg
+                  >Krefeld<br />
+                </div>
+              </div>
+              <div class="col-md-9">
+                <div class="boxen bottom hvr-shrink">
+                  <span class="h5 title-job">Abitur</span>
+                  <p class="fw-light title-job subtitle">September 2009 – Juli 2017</p>
+                  <ul>
+                    <li>Notendurchschnitt: 1,6</li>
+                    <li>Prüfungsfächer: Mathematik, Sozialwissenschaften, Englisch, Philosophie</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="Kontakt" class="seite tab-content">
+        <div class="seitentitel">Kontakt</div>
+        <div class="seiteninhalte">
+          <div class="row align-items-start">
+            <div class="col-md-6">
+              <div class="boxen hvr-shrink">
+                <h4 style="margin-bottom: 20px">Zusammenfassung</h4>
+                <div
+                  class="contact-about-me typewrite-once"
+                  data-text="Ich arbeite daran, aus Daten klare, verständliche und handlungsorientierte Erkenntnisse zu gewinnen."
+                  data-speed="70"
+                ></div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="boxen hvr-shrink">
+                <h4 style="margin-bottom: 20px">Mich erreichen</h4>
+                <div class="d-grid gap-2 align-items-center">
+                  <a
+                    href="https://www.linkedin.com/in/oezguen-cakir"
+                    class="language-toggle"
+                    role="button"
+                    target="_blank"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      fill="currentColor"
+                      class="bi bi-linkedin"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"
+                      />
+                    </svg>
+                    LinkedIn
+                  </a>
+                  <a href="mailto:oezguen.cakir@posteo.de" class="language-toggle" role="button" target="_blank">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      fill="currentColor"
+                      class="bi bi-envelope-fill"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555ZM0 4.697v7.104l5.803-3.558L0 4.697ZM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757Zm3.436-.586L16 11.801V4.697l-5.803 3.546Z"
+                      />
+                    </svg>
+                    E-Mail
+                  </a>
+                  <a href="https://github.com/OezguenCakir" class="language-toggle" role="button" target="_blank">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      fill="currentColor"
+                      class="bi bi-github"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"
+                      />
+                    </svg>
+                    GitHub
+                  </a>
+                </div>
+              </div>
+              <div class="boxen hvr-shrink">
+                <h4 style="margin-bottom: 20px">Über diese Seite</h4>
+                <div class="d-grid gap-2 align-items-center">
+                  <a href="pages/about.html" class="language-toggle hvr-shrink" role="button">
+                    Wie und warum ich diese Seite gebaut habe
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="foot">
+          <hr />
+          &copy; <span id="currentYear"></span> Özgün Cakir -
+          <a href="pages/imprint.html">Impressum</a>
+        </div>
+      </div>
+    </div>
+    <script src="scripts/progress_bar_animation.js" type="text/javascript" defer></script>
+    <script src="scripts/toggle_dark_mode.js" type="text/javascript"></script>
+    <script src="scripts/typewriter_once.js" type="text/javascript"></script>
+    <script src="scripts/utils.js" type="text/javascript"></script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const startDate = new Date("2022-07-01");
+        const today = new Date();
+        const futureEnd = new Date(today);
+        futureEnd.setFullYear(futureEnd.getFullYear() + 2);
+
+        function yearsFrom(date) {
+          return (date - startDate) / (1000 * 60 * 60 * 24 * 365.25);
+        }
+
+        // Build actual data points (monthly steps from start to today)
+        const actualData = [];
+        const d = new Date(startDate);
+        while (d <= today) {
+          actualData.push({ x: new Date(d), y: Math.max(0, yearsFrom(d)) });
+          d.setMonth(d.getMonth() + 1);
+        }
+        actualData.push({ x: new Date(today), y: yearsFrom(today) });
+
+        // Build projected data (monthly steps from today to future)
+        const projectedData = [{ x: new Date(today), y: yearsFrom(today) }];
+        const p = new Date(today);
+        p.setMonth(p.getMonth() + 1);
+        while (p <= futureEnd) {
+          projectedData.push({ x: new Date(p), y: yearsFrom(p) });
+          p.setMonth(p.getMonth() + 1);
+        }
+
+        const isDark = () =>
+          document.documentElement.getAttribute("data-bs-theme") === "dark" ||
+          (!document.documentElement.getAttribute("data-bs-theme") &&
+            window.matchMedia("(prefers-color-scheme: dark)").matches);
+
+        const accentColor = "#107c7c";
+        const gridColor = () => (isDark() ? "rgba(255,255,255,0.08)" : "rgba(0,0,0,0.06)");
+        const labelColor = () => (isDark() ? "#adb5bd" : "#555");
+
+        const ctx = document.getElementById("careerChart").getContext("2d");
+        const chart = new Chart(ctx, {
+          type: "line",
+          data: {
+            datasets: [
+              {
+                label: "Berufserfahrung",
+                data: actualData,
+                borderColor: accentColor,
+                backgroundColor: accentColor + "22",
+                borderWidth: 2.5,
+                pointRadius: 0,
+                pointHoverRadius: 4,
+                fill: true,
+                tension: 0,
+              },
+              {
+                label: "Prognose",
+                data: projectedData,
+                borderColor: accentColor,
+                backgroundColor: "transparent",
+                borderWidth: 2,
+                borderDash: [6, 4],
+                pointRadius: 0,
+                pointHoverRadius: 4,
+                fill: false,
+                tension: 0,
+              },
+            ],
+          },
+          options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            layout: { padding: 0 },
+            events: window.matchMedia("(hover: none)").matches ? [] : ["mousemove", "mouseout", "click"],
+            interaction: { mode: "index", intersect: false },
+            plugins: {
+              legend: { display: false },
+              tooltip: {
+                callbacks: {
+                  label: (ctx) => {
+                    const y = ctx.parsed.y;
+                    const years = Math.floor(y);
+                    const months = Math.round((y - years) * 12);
+                    const suffix = ctx.dataset.label === "Prognose" ? " (Prognose)" : "";
+                    return (
+                      (years > 0 ? years + " J" + (years !== 1 ? "ahre" : "ahr") : "") +
+                      (months > 0 ? (years > 0 ? " " : "") + months + " Mon." : "") +
+                      suffix
+                    );
+                  },
+                  title: (items) =>
+                    new Date(items[0].parsed.x).toLocaleDateString("de-DE", { month: "short", year: "numeric" }),
+                },
+              },
+            },
+            scales: {
+              x: {
+                type: "time",
+                time: { unit: "year", displayFormats: { year: "yyyy" } },
+                min: startDate.toISOString(),
+                max: futureEnd.toISOString(),
+                grid: { color: gridColor() },
+                ticks: { color: labelColor(), maxRotation: 0, font: { size: 10 } },
+              },
+              y: {
+                min: 0,
+                ticks: {
+                  color: labelColor(),
+                  stepSize: 1,
+                  font: { size: 10 },
+                  callback: (v) => v + " J.",
+                },
+                grid: { color: gridColor() },
+              },
+            },
+          },
+        });
+
+        const updateChartColors = () => {
+          chart.options.scales.x.grid.color = gridColor();
+          chart.options.scales.x.ticks.color = labelColor();
+          chart.options.scales.y.grid.color = gridColor();
+          chart.options.scales.y.ticks.color = labelColor();
+          chart.update("none");
+        };
+
+        new MutationObserver(updateChartColors).observe(document.documentElement, {
+          attributes: true,
+          attributeFilter: ["data-bs-theme"],
+        });
+        window.matchMedia("(prefers-color-scheme: dark)").addEventListener("change", updateChartColors);
+      });
+    </script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        var hash = window.location.hash;
+        if (hash) {
+          setTimeout(function () {
+            var target = document.querySelector(hash);
+            if (target) {
+              var offset = target.getBoundingClientRect().top + window.pageYOffset - 55;
+              window.scrollTo({ top: offset, behavior: "smooth" });
+            }
+          }, 100); // Small delay to ensure the DOM is fully loaded
+        }
+      });
+    </script>
+  </body>
+</html>

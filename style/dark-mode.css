@@ -1,0 +1,115 @@
+[data-bs-theme="dark"] {
+  color-scheme: dark;
+}
+
+@media (prefers-color-scheme: dark) {
+  html:not([data-bs-theme="light"]) .banner,
+  html:not([data-bs-theme="light"]) .navigation-bar {
+    background-color: var(--third-color) !important;
+  }
+  html:not([data-bs-theme="light"]) .image,
+  html:not([data-bs-theme="light"]) .hero-heading,
+  html:not([data-bs-theme="light"]) .imprint-header,
+  html:not([data-bs-theme="light"]) .progress-bar,
+  html:not([data-bs-theme="light"]) .nav-pills .nav-link.active,
+  html:not([data-bs-theme="light"]) .nav-link:hover,
+  html:not([data-bs-theme="light"]) .btn,
+  html:not([data-bs-theme="light"]) #skills-button {
+    background-color: var(--accent-color) !important;
+    color: #fff !important;
+  }
+  html:not([data-bs-theme="light"]) .contact-btn {
+    background: rgba(255, 255, 255, 0.15) !important;
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    color: #fff !important;
+  }
+  html:not([data-bs-theme="light"]) .progress-bar,
+  html:not([data-bs-theme="light"]) .nav-pills .nav-link.active,
+  html:not([data-bs-theme="light"]) .btn {
+    --bs-btn-border-color: var(--third-color) !important;
+  }
+  html:not([data-bs-theme="light"]) .seitentitel,
+  html:not([data-bs-theme="light"]) .contact-about-me,
+  html:not([data-bs-theme="light"]) .nav-fill .nav-item .nav-link,
+  html:not([data-bs-theme="light"]) .nav-justified .nav-item .nav-link {
+    color: #fff !important;
+  }
+  html:not([data-bs-theme="light"]) #Start {
+    background: radial-gradient(ellipse at 50% 0%, rgba(16, 124, 124, 0.18) 0%, transparent 65%);
+  }
+  html:not([data-bs-theme="light"]) .banner {
+    background-image: linear-gradient(
+      to right top,
+      #324b4b,
+      #325152,
+      #32575a,
+      #315d62,
+      #30636b,
+      #30656e,
+      #306672,
+      #306875,
+      #316673,
+      #326472,
+      #326270,
+      #33606e
+    );
+  }
+}
+
+[data-bs-theme="dark"] .banner,
+[data-bs-theme="dark"] .navigation-bar {
+  background-color: var(--third-color) !important;
+}
+
+[data-bs-theme="dark"] .image,
+[data-bs-theme="dark"] .hero-heading,
+[data-bs-theme="dark"] .imprint-header,
+[data-bs-theme="dark"] .progress-bar,
+[data-bs-theme="dark"] .nav-pills .nav-link.active,
+[data-bs-theme="dark"] .nav-link:hover,
+[data-bs-theme="dark"] .btn,
+[data-bs-theme="dark"] #skills-button {
+  background-color: var(--accent-color) !important;
+  color: #fff !important;
+}
+
+[data-bs-theme="dark"] .contact-btn {
+  background: rgba(255, 255, 255, 0.15) !important;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  color: #fff !important;
+}
+
+[data-bs-theme="dark"] .progress-bar,
+[data-bs-theme="dark"] .nav-pills .nav-link.active,
+[data-bs-theme="dark"] .btn {
+  --bs-btn-border-color: var(--third-color) !important;
+}
+
+[data-bs-theme="dark"] .seitentitel,
+[data-bs-theme="dark"] .contact-about-me,
+[data-bs-theme="dark"] .nav-fill .nav-item .nav-link,
+[data-bs-theme="dark"] .nav-justified .nav-item .nav-link {
+  color: #fff !important;
+}
+
+[data-bs-theme="dark"] #Start {
+  background: radial-gradient(ellipse at 50% 0%, rgba(16, 124, 124, 0.18) 0%, transparent 65%);
+}
+
+[data-bs-theme="dark"] .banner {
+  background-image: linear-gradient(
+    to right top,
+    #324b4b,
+    #325152,
+    #32575a,
+    #315d62,
+    #30636b,
+    #30656e,
+    #306672,
+    #306875,
+    #316673,
+    #326472,
+    #326270,
+    #33606e
+  );
+}

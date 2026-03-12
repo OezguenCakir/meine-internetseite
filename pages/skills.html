@@ -1,0 +1,632 @@
+<!doctype html>
+<html lang="de" data-bs-theme="auto">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Meine Fähigkeiten</title>
+    <meta
+      name="description"
+      content="Meine technischen Fähigkeiten ausführlich beschrieben, eingestuft und erläutert, wo ich die einzelnen Fähigkeiten einsetzen konnte."
+    />
+    <meta name="theme-color" content="#234E5A" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="google" content="notranslate" />
+    <link rel="icon" sizes="96x96" href="../assets/main/favicon-96x96.webp" />
+    <link rel="stylesheet" href="../style/style.css" />
+    <link rel="stylesheet" href="../style/dark-mode.css" />
+    <link rel="stylesheet" href="../style/hover-min.css" />
+    <link rel="stylesheet" href="../style/screen-sizes.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div
+      id="navbar-main"
+      class="navigation-bar"
+      data-collapse="medium"
+      data-animation="default"
+      data-duration="400"
+      data-no-scroll="1"
+      data-easing="ease"
+      data-easing2="ease"
+      role="banner"
+    >
+      <div class="content-nav">
+        <nav class="navbar nav-pills d-flex justify-content-center">
+          <a class="navbar-brand" href="../index.html#">
+            <img src="../assets/main/favicon-256x256.webp" height="32px" width="32px" alt="Ö Logo" />
+          </a>
+          <a href="../index.html#Start" class="nav-link my-1">Übersicht</a>
+          <a href="../index.html#BeruflicheLaufbahn" class="nav-link my-1">Berufliche Laufbahn</a>
+          <a href="../index.html#Zertifikate" class="nav-link my-1">Zertifikate</a>
+          <a href="../index.html#Bildungsweg" class="nav-link my-1">Bildungsweg</a>
+          <a href="../index.html#Kontakt" class="nav-link my-1">Kontakt</a>
+          <button
+            id="theme-toggle"
+            class="hide-on-mobile nav-link my-1"
+            style="
+              background: none;
+              border: none;
+              color: #fff;
+              cursor: pointer;
+              padding: 8px 10px !important;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+            "
+            aria-label="Dark Mode aktivieren"
+          ></button>
+        </nav>
+      </div>
+    </div>
+    <div data-bs-target="#navbar-main" tabindex="0">
+      <a href="../index.html#Start">
+        <div class="back-box">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            fill="currentColor"
+            class="bi bi-chevron-left"
+            viewBox="0 0 16 16"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0"
+            />
+          </svg>
+          zurück
+        </div>
+      </a>
+      <div class="seitentitel">Meine technischen Fähigkeiten</div>
+      <div id="skills-sql" class="seite tab-content">
+        <div class="seitentitel seitentitel-2">
+          <img
+            src="../assets/icons/sql.svg"
+            width="24"
+            height="24"
+            style="margin-right: 10px; align-self: center"
+            alt=""
+            draggable="false"
+          />SQL
+        </div>
+        <div class="seiteninhalte">
+          <div class="col align-items-start">
+            <div class="row align-items-start">
+              <div class="col-md-8">
+                <div class="boxen hvr-shrink">
+                  <p>
+                    SQL sehe ich als eine meiner Stärken und Lieblingsaufgaben bei meiner Arbeit. Hierbei mag ich es,
+                    auch längere und komplexere Skripte mit mehreren CTEs oder aufeinander aufbauenden Views zu
+                    schreiben.
+                  </p>
+                  <p>
+                    Mit SQL baue ich hauptsächlich Datenpipelines für Dashboards. Dies umfasst neben der Datenabfrage
+                    gegebenenfalls auch komplexere Transformationen. Ich kann dafür alle Vorzüge von SQL nutzen – also
+                    neben den Standardfunktionen unter anderem auch Window Functions.
+                  </p>
+                  <p>
+                    Beruflich arbeite ich mit Snowflake. Dabei schätze ich es, besondere Funktionen von Snowflake
+                    anwenden zu können, wie beispielsweise <code>QUALIFY</code>, um die aus Window Functions
+                    resultierenden Spalten zu filtern. Ein weiteres Beispiel wäre <code>GROUP BY ALL</code>, um bei
+                    <code>GROUP BY</code>-Befehlen nicht alle zu gruppierenden Spalten aufzählen zu müssen.
+                  </p>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="boxen boxen-heller hvr-shrink">
+                  <h6>Stärke</h6>
+                  <div
+                    class="progress"
+                    role="progressbar"
+                    aria-label="SQL"
+                    aria-valuenow="95"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                    style="background-color: var(--bs-border-color) !important"
+                  >
+                    <div class="progress-bar" style="width: 95%"></div>
+                  </div>
+                </div>
+                <div class="boxen boxen-heller hvr-shrink">
+                  <h6>Wo ich damit gearbeitet habe</h6>
+                  <div class="d-inline-flex flex-wrap gap-2">
+                    <span class="skill-pills">Data Analyst bei AXA</span>
+                    <span class="skill-pills">DataCamp: Data Analyst Professional</span>
+                    <span class="skill-pills">Google Data Analytics Certificate</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="skills-powerbi" class="seite tab-content">
+        <div class="seitentitel seitentitel-2">
+          <img
+            src="../assets/icons/powerbi.svg"
+            width="24"
+            height="24"
+            style="margin-right: 10px; align-self: center"
+            alt=""
+            draggable="false"
+          />Power BI
+        </div>
+        <div class="seiteninhalte">
+          <div class="col align-items-start">
+            <div class="row align-items-start">
+              <div class="col-md-8">
+                <div class="boxen hvr-shrink">
+                  <p>
+                    In den letzten Jahren habe ich viel mit Power BI arbeiten können. Dabei habe ich Power BI schätzen
+                    gelernt, frustriere mich aber auch regelmäßig über die Eigenarten des Programms.
+                  </p>
+                  <p>
+                    Ich baue besonders gerne automatisierte Power BI-Apps mit geringem Wartungsbedarf. Die Measures
+                    schreibe ich strukturiert, wobei sie nur das berechnen, was ich nicht bereits in der Datenpipeline
+                    bereitstellen kann – auf berechnete Spalten verzichte ich dabei bewusst.
+                  </p>
+                  <p>
+                    Auf das Design lege ich großen Wert und versuche die User Experience auch durch möglichst kurze
+                    Ladezeiten zu optimieren. Funktionen wie Feld-Parameter für selbst konfigurierbare Visualisierungen
+                    sowie Kartenvisualisierungen bis auf Hausebene gehören dabei zu Aufgaben, die ich bereits umgesetzt
+                    habe.
+                  </p>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="boxen boxen-heller hvr-shrink">
+                  <h6>Stärke</h6>
+                  <div
+                    class="progress"
+                    role="progressbar"
+                    aria-label="Power BI"
+                    aria-valuenow="97"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                    style="background-color: var(--bs-border-color) !important"
+                  >
+                    <div class="progress-bar" style="width: 97%"></div>
+                  </div>
+                </div>
+                <div class="boxen boxen-heller hvr-shrink">
+                  <h6>Wo ich damit gearbeitet habe</h6>
+                  <div class="d-inline-flex flex-wrap gap-2">
+                    <span class="skill-pills">Data Analyst bei AXA</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="skills-python" class="seite tab-content">
+        <div class="seitentitel seitentitel-2">
+          <img
+            src="../assets/icons/python.svg"
+            width="24"
+            height="24"
+            style="margin-right: 10px; align-self: center"
+            alt=""
+            draggable="false"
+          />Python
+        </div>
+        <div class="seiteninhalte">
+          <div class="col align-items-start">
+            <div class="row align-items-start">
+              <div class="col-md-8">
+                <div class="boxen hvr-shrink">
+                  <p>
+                    Mit Python arbeite ich seit dem Studium gerne. Beruflich nutze ich Python vor allem dort, wo SQL an
+                    seine Grenzen stößt.
+                  </p>
+                  <p>
+                    Meine Arbeit umfasst vor allem die klassischen Libraries für Datenverarbeitung wie Pandas und NumPy,
+                    aber auch Plotly für Visualisierungen.
+                  </p>
+                  <p>
+                    Privat habe ich ebenfalls bereits häufiger mit Streamlit gearbeitet. Damit lassen sich Ergebnisse
+                    aus Python unkompliziert im Browser visualisieren – so zum Beispiel eine Auswertung meiner
+                    Kontoausgaben, die ich damit regelmäßig verfolge.
+                  </p>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="boxen boxen-heller hvr-shrink">
+                  <h6>Stärke</h6>
+                  <div
+                    class="progress"
+                    role="progressbar"
+                    aria-label="Python"
+                    aria-valuenow="70"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                    style="background-color: var(--bs-border-color) !important"
+                  >
+                    <div class="progress-bar" style="width: 70%"></div>
+                  </div>
+                </div>
+                <div class="boxen boxen-heller hvr-shrink">
+                  <h6>Wo ich damit gearbeitet habe</h6>
+                  <div class="d-inline-flex flex-wrap gap-2">
+                    <span class="skill-pills">Data Analyst bei AXA</span>
+                    <span class="skill-pills">DataCamp: Data Analyst Professional</span>
+                    <span class="skill-pills">Uni-Workshop</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="skills-git" class="seite tab-content">
+        <div class="seitentitel seitentitel-2">
+          <img
+            src="../assets/icons/git.svg"
+            width="24"
+            height="24"
+            style="margin-right: 10px; align-self: center"
+            alt=""
+            draggable="false"
+          />Git
+        </div>
+        <div class="seiteninhalte">
+          <div class="col align-items-start">
+            <div class="row align-items-start">
+              <div class="col-md-8">
+                <div class="boxen hvr-shrink">
+                  <p>
+                    Bei meiner Arbeit nutze ich Git und GitHub für die Versionskontrolle. GitHub habe ich dabei sehr
+                    schätzen gelernt und möchte auf die Vorteile nicht mehr verzichten.
+                  </p>
+                  <p>
+                    Ich kann auch über die CLI arbeiten, nutze jedoch meistens die Git-Integration von PyCharm. Die
+                    gängigen Befehle beherrsche ich sicher, wobei Situationen wie Merge Conflicts selten ein Problem
+                    darstellen.
+                  </p>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="boxen boxen-heller hvr-shrink">
+                  <h6>Stärke</h6>
+                  <div
+                    class="progress"
+                    role="progressbar"
+                    aria-label="Git"
+                    aria-valuenow="92"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                    style="background-color: var(--bs-border-color) !important"
+                  >
+                    <div class="progress-bar" style="width: 92%"></div>
+                  </div>
+                </div>
+                <div class="boxen boxen-heller hvr-shrink">
+                  <h6>Wo ich damit gearbeitet habe</h6>
+                  <div class="d-inline-flex flex-wrap gap-2">
+                    <span class="skill-pills">Data Analyst bei AXA</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="skills-excel" class="seite tab-content">
+        <div class="seitentitel seitentitel-2">
+          <img
+            src="../assets/icons/excel.svg"
+            width="24"
+            height="24"
+            style="margin-right: 10px; align-self: center"
+            alt=""
+            draggable="false"
+          />Excel
+        </div>
+        <div class="seiteninhalte">
+          <div class="col align-items-start">
+            <div class="row align-items-start">
+              <div class="col-md-8">
+                <div class="boxen hvr-shrink">
+                  <p>
+                    Nachdem ich im Laufe der Jahre immer wieder mit Excel gearbeitet hatte, entschied ich mich für eine
+                    intensivere Auseinandersetzung mit dem Programm - mithilfe eines Kurses auf Udemy. Dadurch konnte
+                    ich die Vorzüge kennenlernen und meine Fähigkeiten ausbauen.
+                  </p>
+                  <p>
+                    Als Praktikant bei Henkel konnte ich diese Fähigkeiten einsetzen und mir im Team den Ruf als
+                    Ansprechperson für Excel-Fragen erarbeiten.
+                  </p>
+                  <p>
+                    Mittlerweile arbeite ich deutlich weniger intensiv mit Excel. Dennoch kommt das Programm für
+                    schnelle Berechnungen und klassische Anwendungsfälle regelmäßig zum Einsatz.
+                  </p>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="boxen boxen-heller hvr-shrink">
+                  <h6>Stärke</h6>
+                  <div
+                    class="progress"
+                    role="progressbar"
+                    aria-label="Excel"
+                    aria-valuenow="60"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                    style="background-color: var(--bs-border-color) !important"
+                  >
+                    <div class="progress-bar" style="width: 60%"></div>
+                  </div>
+                </div>
+                <div class="boxen boxen-heller hvr-shrink">
+                  <h6>Wo ich damit gearbeitet habe</h6>
+                  <div class="d-inline-flex flex-wrap gap-2">
+                    <span class="skill-pills">Data Analyst bei AXA</span>
+                    <span class="skill-pills">Customer Service Intern bei Henkel</span>
+                    <span class="skill-pills">ExcelHero: Excel Kurs Komplettpaket</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="skills-powerpoint" class="seite tab-content">
+        <div class="seitentitel seitentitel-2">
+          <img
+            src="../assets/icons/powerpoint.svg"
+            width="24"
+            height="24"
+            style="margin-right: 10px; align-self: center"
+            alt=""
+            draggable="false"
+          />PowerPoint
+        </div>
+        <div class="seiteninhalte">
+          <div class="col align-items-start">
+            <div class="row align-items-start">
+              <div class="col-md-8">
+                <div class="boxen hvr-shrink">
+                  <p>
+                    PowerPoint begleitet mich seit meiner Schulzeit – von einfachen Präsentationen bis hin zu
+                    strukturierten Vorträgen im Studium und im Beruf.
+                  </p>
+                  <p>
+                    Im Praktikum bei Henkel nutzte ich PowerPoint regelmäßig, um Analysen und Ergebnisse klar und
+                    ansprechend zu präsentieren.
+                  </p>
+                  <p>
+                    Mittlerweile setze ich PowerPoint seltener ein, da ich Inhalte zunehmend direkt in interaktiven
+                    Dashboards oder Reports aufbereite.
+                  </p>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="boxen boxen-heller hvr-shrink">
+                  <h6>Stärke</h6>
+                  <div
+                    class="progress"
+                    role="progressbar"
+                    aria-label="PowerPoint"
+                    aria-valuenow="55"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                    style="background-color: var(--bs-border-color) !important"
+                  >
+                    <div class="progress-bar" style="width: 55%"></div>
+                  </div>
+                </div>
+                <div class="boxen boxen-heller hvr-shrink">
+                  <h6>Wo ich damit gearbeitet habe</h6>
+                  <div class="d-inline-flex flex-wrap gap-2">
+                    <span class="skill-pills">Data Analyst bei AXA</span>
+                    <span class="skill-pills">Customer Service Intern bei Henkel</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="skills-streamlit" class="seite tab-content">
+        <div class="seitentitel seitentitel-2">
+          <img
+            src="../assets/icons/streamlit.svg"
+            width="24"
+            height="24"
+            style="margin-right: 10px; align-self: center"
+            alt=""
+            draggable="false"
+          />Streamlit
+        </div>
+        <div class="seiteninhalte">
+          <div class="col align-items-start">
+            <div class="row align-items-start">
+              <div class="col-md-8">
+                <div class="boxen hvr-shrink">
+                  <p>
+                    Streamlit nutze ich ausschließlich für private Projekte – als schnelle Möglichkeit,
+                    Python-Auswertungen interaktiv erlebbar zu machen.
+                  </p>
+                  <p>
+                    Entstanden sind dabei unter anderem eine App zur Analyse meiner persönlichen Finanzen sowie ein
+                    Dashboard, das mein chess.com-Profil und meine Partien auswertet.
+                  </p>
+                  <p>
+                    Beruflich setze ich Streamlit bisher nicht ein – es ist für mich ein Werkzeug, um Ideen schnell
+                    umzusetzen und Daten auf eigene Fragestellungen hin zu erkunden.
+                  </p>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="boxen boxen-heller hvr-shrink">
+                  <h6>Stärke</h6>
+                  <div
+                    class="progress"
+                    role="progressbar"
+                    aria-label="Streamlit"
+                    aria-valuenow="65"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                    style="background-color: var(--bs-border-color) !important"
+                  >
+                    <div class="progress-bar" style="width: 65%"></div>
+                  </div>
+                </div>
+                <div class="boxen boxen-heller hvr-shrink">
+                  <h6>Wo ich damit gearbeitet habe</h6>
+                  <div class="d-inline-flex flex-wrap gap-2">
+                    <span class="skill-pills">Privat bei mir zuhause</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="skills-htmlcss" class="seite tab-content">
+        <div class="seitentitel seitentitel-2">
+          <img
+            src="../assets/icons/html.svg"
+            width="24"
+            height="24"
+            style="margin-right: 10px; align-self: center"
+            alt=""
+            draggable="false"
+          />HTML & CSS
+        </div>
+        <div class="seiteninhalte">
+          <div class="col align-items-start">
+            <div class="row align-items-start">
+              <div class="col-md-8">
+                <div class="boxen hvr-shrink">
+                  <p>
+                    Im Rahmen der Arbeiten an dieser Seite habe ich mich intensiv mit HTML und CSS auseinandergesetzt.
+                    Ich schätze die gestalterischen Möglichkeiten, die mir die Arbeit an dieser Seite bietet.
+                  </p>
+                  <p>
+                    Nennenswert ist auch, wie mein Verständnis für den Aufbau von Webseiten in dieser Zeit gewachsen
+                    ist. Mit JavaScript hatte ich dabei ebenfalls Berührungspunkte – ein tieferes Verständnis habe ich
+                    jedoch bewusst nicht angestrebt.
+                  </p>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="boxen boxen-heller hvr-shrink">
+                  <h6>Stärke</h6>
+                  <div
+                    class="progress"
+                    role="progressbar"
+                    aria-label="HTML und CSS"
+                    aria-valuenow="45"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                    style="background-color: var(--bs-border-color) !important"
+                  >
+                    <div class="progress-bar" style="width: 45%"></div>
+                  </div>
+                </div>
+                <div class="boxen boxen-heller hvr-shrink">
+                  <h6>Wo ich damit gearbeitet habe</h6>
+                  <div class="d-inline-flex flex-wrap gap-2">
+                    <span class="skill-pills">mit dieser Seite hier</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="skills-tableau" class="seite tab-content">
+        <div class="seitentitel seitentitel-2">
+          <img
+            src="../assets/icons/tableau.svg"
+            width="24"
+            height="24"
+            style="margin-right: 10px; align-self: center"
+            alt=""
+            draggable="false"
+          />Tableau
+        </div>
+        <div class="seiteninhalte">
+          <div class="col align-items-start">
+            <div class="row align-items-start">
+              <div class="col-md-8">
+                <div class="boxen hvr-shrink">
+                  <p>
+                    Tableau habe ich im Rahmen des Google Data Analytics-Zertifikats kennengelernt, wo es als zentrales
+                    Visualisierungswerkzeug eingesetzt wurde.
+                  </p>
+                  <p>
+                    Ich habe die Grundlagen erlernt und erste Dashboards erstellt – beruflich oder in eigenen Projekten
+                    nutze ich Tableau bisher jedoch nicht aktiv.
+                  </p>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="boxen boxen-heller hvr-shrink">
+                  <h6>Stärke</h6>
+                  <div
+                    class="progress"
+                    role="progressbar"
+                    aria-label="Tableau"
+                    aria-valuenow="25"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                    style="background-color: var(--bs-border-color) !important"
+                  >
+                    <div class="progress-bar" style="width: 25%"></div>
+                  </div>
+                </div>
+                <div class="boxen boxen-heller hvr-shrink">
+                  <h6>Wo ich damit gearbeitet habe</h6>
+                  <div class="d-inline-flex flex-wrap gap-2">
+                    <span class="skill-pills">Google Data Analytics Certificate</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="foot">
+        <hr />
+        &copy; <span id="currentYear"></span> Özgün Cakir -
+        <a href="imprint.html">Impressum</a>
+      </div>
+    </div>
+    <script src="../scripts/progress_bar_animation.js" type="text/javascript" defer></script>
+    <script src="../scripts/toggle_dark_mode.js" type="text/javascript"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const yearSpan = document.getElementById("currentYear");
+        if (yearSpan) {
+          yearSpan.textContent = new Date().getFullYear();
+        }
+      });
+    </script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        var hash = window.location.hash;
+        if (hash) {
+          setTimeout(function () {
+            var target = document.querySelector(hash);
+            if (target) {
+              var offset = target.getBoundingClientRect().top + window.pageYOffset - 55;
+              window.scrollTo({ top: offset, behavior: "smooth" });
+            }
+          }, 100); // Small delay to ensure the DOM is fully loaded
+        }
+      });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,21 @@
+# Claude Code
+.claude/
+
+# Editor
+.vscode/
+
+# Local archive
+archive/
+
+# macOS
+.DS_Store
+
+# Node
+node_modules/
+
+# Python
+.venv/
+__pycache__/
+
+# pre-commit
+.pre-commit-cache/

@@ -1,0 +1,8 @@
+{
+  "name": "meine-internetseite",
+  "private": true,
+  "devDependencies": {
+    "htmlhint": "^1.1.4",
+    "prettier": "^3.5.3"
+  }
+}
