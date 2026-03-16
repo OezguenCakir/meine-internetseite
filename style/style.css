@@ -49,6 +49,7 @@ a:any-link {
   font-weight: 300;
   font-size: xx-large;
   color: var(--accent-color);
+  width: 100%;
 }
 
 .navigation-bar {
