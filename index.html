@@ -42,11 +42,11 @@
           <a class="navbar-brand" href="#">
             <img src="assets/main/favicon-256x256.webp" height="32px" width="32px" alt="Ö Logo" />
           </a>
-          <a href="#Start" class="nav-link my-1">Übersicht</a>
-          <a href="#BeruflicheLaufbahn" class="nav-link my-1">Berufliche Laufbahn</a>
-          <a href="#Zertifikate" class="nav-link my-1">Zertifikate</a>
-          <a href="#Bildungsweg" class="nav-link my-1">Bildungsweg</a>
-          <a href="#Kontakt" class="nav-link my-1">Kontakt</a>
+          <a href="#Start" class="nav-link my-1" data-i18n="nav_overview">Übersicht</a>
+          <a href="#BeruflicheLaufbahn" class="nav-link my-1" data-i18n="nav_career">Berufliche Laufbahn</a>
+          <a href="#Zertifikate" class="nav-link my-1" data-i18n="nav_certificates">Zertifikate</a>
+          <a href="#Bildungsweg" class="nav-link my-1" data-i18n="nav_education">Bildungsweg</a>
+          <a href="#Kontakt" class="nav-link my-1" data-i18n="nav_contact">Kontakt</a>
           <button
             id="theme-toggle"
             class="hide-on-mobile nav-link my-1"
@@ -62,6 +62,21 @@
             "
             aria-label="Dark Mode aktivieren"
           ></button>
+          <button
+            id="language-toggle"
+            class="hide-on-mobile nav-link my-1"
+            style="
+              background: none;
+              border: none;
+              color: #fff;
+              cursor: pointer;
+              padding: 8px 10px !important;
+              font-size: 0.85rem;
+              font-weight: 600;
+            "
+            aria-label="Switch to English"
+            title="Switch to English"
+          ><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" class="bi bi-globe2" viewBox="0 0 16 16" style="margin-right: 4px; vertical-align: middle"><path d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8m7.5-6.923c-.67.204-1.335.82-1.887 1.855A8 8 0 0 0 5.145 4H7.5zM4.09 4a9.3 9.3 0 0 1 .64-1.539 7 7 0 0 1 .597-.933A7.03 7.03 0 0 0 2.255 4zm-.582 3.5c.03-.877.138-1.718.312-2.5H1.674a7 7 0 0 0-.656 2.5zM4.847 5a12.5 12.5 0 0 0-.338 2.5H7.5V5zM8.5 5v2.5h2.99a12.5 12.5 0 0 0-.337-2.5zM4.51 8.5a12.5 12.5 0 0 0 .337 2.5H7.5V8.5zm3.99 0V11h2.653c.187-.765.306-1.608.338-2.5zM5.145 12q.208.58.468 1.068c.552 1.035 1.218 1.65 1.887 1.855V12zm.182 2.472a7 7 0 0 1-.597-.933A9.3 9.3 0 0 1 4.09 12H2.255a7 7 0 0 0 3.072 2.472M3.82 11a13.7 13.7 0 0 1-.312-2.5h-2.49c.062.89.291 1.733.656 2.5zm6.853 3.472A7 7 0 0 0 13.745 12H11.91a9.3 9.3 0 0 1-.64 1.539 7 7 0 0 1-.597.933M8.5 12v2.923c.67-.204 1.335-.82 1.887-1.855q.26-.487.468-1.068zm3.68-1h2.146c.365-.767.594-1.61.656-2.5h-2.49a13.7 13.7 0 0 1-.312 2.5m2.802-3.5a7 7 0 0 0-.656-2.5H12.18c.174.782.282 1.623.312 2.5zM11.27 2.461c.247.464.462.98.64 1.539h1.835a7 7 0 0 0-3.072-2.472c.218.284.418.598.597.933M10.855 4a8 8 0 0 0-.468-1.068C9.835 1.897 9.17 1.282 8.5 1.077V4z"/></svg><span>EN</span></button>
         </nav>
       </div>
     </div>
@@ -87,20 +102,20 @@
             />
           </div>
           <div>
-            <h1 class="hero-heading hvr-grow" style="color: #fff">Hallo, ich bin Özgün.<br />Data Analyst.<br /></h1>
+            <h1 class="hero-heading hvr-grow" style="color: #fff" data-i18n-html="hero_greeting">Hallo, ich bin Özgün.<br />Data Analyst.<br /></h1>
           </div>
         </div>
         <div class="contact-btn-wrapper">
-          <a href="#Kontakt" class="hvr-grow contact-btn">Kontakt aufnehmen</a>
+          <a href="#Kontakt" class="hvr-grow contact-btn" data-i18n="hero_cta">Kontakt aufnehmen</a>
         </div>
       </div>
       <div id="Start" class="seite tab-content">
-        <div class="seitentitel">Übersicht</div>
+        <div class="seitentitel" data-i18n="section_overview">Übersicht</div>
         <div class="seiteninhalte">
           <div class="row align-items-start">
             <div class="col-md-5">
               <div class="boxen">
-                <h4>Technische Fähigkeiten</h4>
+                <h4 data-i18n="overview_tech_skills">Technische Fähigkeiten</h4>
                 <a href="pages/skills.html#skills-sql" style="color: inherit">
                   <div class="hvr-shrink d-flex align-items-center gap-3">
                     <img
@@ -333,23 +348,23 @@
                   role="button"
                   style="margin-top: 20px"
                 >
-                  mehr hierzu lesen
+                  <span data-i18n="overview_skills_more">mehr hierzu lesen</span>
                 </a>
               </div>
             </div>
             <div class="col-md-4">
               <div class="boxen hvr-shrink">
-                <h4>Profil</h4>
+                <h4 data-i18n="overview_profile">Profil</h4>
                 <div class="d-flex flex-wrap gap-2 mt-2">
-                  <span class="profil-pill">Datenanalyse</span>
-                  <span class="profil-pill">Datenvisualisierung</span>
+                  <span class="profil-pill" data-i18n="profile_data_analysis">Datenanalyse</span>
+                  <span class="profil-pill" data-i18n="profile_data_viz">Datenvisualisierung</span>
                   <span class="profil-pill">ETL-Pipelines</span>
                   <span class="profil-pill">Data Storytelling</span>
                 </div>
               </div>
               <div class="boxen hvr-shrink">
                 <a href="#BeruflicheLaufbahn" style="color: inherit; text-decoration: none">
-                  <h4 class="text-center mb-1">Berufserfahrung</h4>
+                  <h4 class="text-center mb-1" data-i18n="overview_work_exp">Berufserfahrung</h4>
                   <h5 id="years_experience" class="text-center mb-2" style="font-size: 1rem"></h5>
                 </a>
                 <div style="height: 150px; position: relative">
@@ -360,13 +375,13 @@
             <div class="col-md-3">
               <a href="#Bildungsweg" style="color: inherit">
                 <div class="boxen hvr-shrink text-center">
-                  <h4 class="mt-2" style="margin-top: 0 !important">Studium</h4>
+                  <h4 class="mt-2" style="margin-top: 0 !important" data-i18n="overview_studies">Studium</h4>
                   <table
                     class="sprachen-table w-100 mt-2"
                     style="border-spacing: 0 10px; font-size: 1.05rem; font-weight: 500"
                   >
                     <tr>
-                      <td>BWL B.Sc.</td>
+                      <td data-i18n="overview_degree">BWL B.Sc.</td>
                       <td class="text-end fw-light">HHU Düsseldorf</td>
                     </tr>
                   </table>
@@ -374,7 +389,7 @@
               </a>
               <a href="#Zertifikate" style="color: inherit">
                 <div class="boxen hvr-shrink">
-                  <h4>Zertifikate</h4>
+                  <h4 data-i18n="overview_certificates">Zertifikate</h4>
                   <table
                     class="sprachen-table w-100 mt-2"
                     style="border-spacing: 0 10px; font-size: 1.05rem; font-weight: 500"
@@ -385,7 +400,7 @@
                     </tr>
                     <tr>
                       <td>ExcelHero</td>
-                      <td class="text-end fw-light">Excel Kurs</td>
+                      <td class="text-end fw-light" data-i18n="overview_excel_course">Excel Kurs</td>
                     </tr>
                     <tr style="margin-bottom: 0">
                       <td>Google</td>
@@ -395,22 +410,22 @@
                 </div>
               </a>
               <div class="boxen bottom hvr-shrink">
-                <h4>Sprachen</h4>
+                <h4 data-i18n="overview_languages">Sprachen</h4>
                 <table
                   class="sprachen-table w-100 mt-2"
                   style="border-spacing: 0 10px; font-size: 1.05rem; font-weight: 500"
                 >
                   <tr>
-                    <td>Deutsch</td>
-                    <td class="text-end fw-light">Muttersprache</td>
+                    <td data-i18n="lang_german">Deutsch</td>
+                    <td class="text-end fw-light" data-i18n="lang_german_level">Muttersprache</td>
                   </tr>
                   <tr>
-                    <td>Englisch</td>
-                    <td class="text-end fw-light">Verhandlungssicher</td>
+                    <td data-i18n="lang_english">Englisch</td>
+                    <td class="text-end fw-light" data-i18n="lang_english_level">Verhandlungssicher</td>
                   </tr>
                   <tr>
-                    <td>Türkisch</td>
-                    <td class="text-end fw-light">Fließend</td>
+                    <td data-i18n="lang_turkish">Türkisch</td>
+                    <td class="text-end fw-light" data-i18n="lang_turkish_level">Fließend</td>
                   </tr>
                 </table>
               </div>
@@ -419,7 +434,7 @@
         </div>
       </div>
       <div id="BeruflicheLaufbahn" class="seite tab-content">
-        <div class="seitentitel">Berufliche Laufbahn</div>
+        <div class="seitentitel" data-i18n="section_career">Berufliche Laufbahn</div>
         <div class="seiteninhalte">
           <div class="col align-items-start">
             <div class="row align-items-start">
@@ -454,27 +469,27 @@
                     style="opacity: 0.6; margin-right: 3px; vertical-align: middle"
                   >
                     <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10m0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6" /></svg
-                  >Köln<br />
+                  ><span data-i18n="career_axa_location">Köln</span><br />
                 </div>
               </div>
               <div class="col-md-9">
                 <div class="boxen">
                   <h5 class="mobile-center mb-0">Data Analyst</h5>
-                  <p class="fw-light title-job" style="margin-bottom: 0">Juli 2022 - heute</p>
+                  <p class="fw-light title-job" style="margin-bottom: 0" data-i18n="career_axa_date">Juli 2022 - heute</p>
                   <div id="dateDifference" class="fw-light title-job subtitle" style="font-size: small"></div>
-                  <p class="fw-light title-job subtitle" style="font-size: small">
+                  <p class="fw-light title-job subtitle" style="font-size: small" data-i18n="career_axa_dept">
                     AXA Deutschland › Sachversicherung › Schaden › Analytik & Steuerung
                   </p>
                   <ul>
-                    <li>
+                    <li data-i18n="career_axa_li1">
                       Analyse und Aufbereitung von Schadendaten zur Unterstützung strategischer und operativer
                       Entscheidungen
                     </li>
-                    <li>
+                    <li data-i18n="career_axa_li2">
                       Aufbau von PowerBI-Dashboards mit etwa 200 Aufrufen täglich, die Ad-hoc-Anfragen deutlich
                       reduzierten
                     </li>
-                    <li>
+                    <li data-i18n="career_axa_li3">
                       Gestaltung und Optimierung von ETL-Prozessen in Snowflake zur automatisierten Datenbereitstellung
                       mit integrierten Datenqualitätsprüfungen und Scheduling
                     </li>
@@ -521,17 +536,17 @@
               <div class="col-md-9">
                 <div class="boxen bottom">
                   <h5 class="mobile-center mb-0">Data Entry</h5>
-                  <span class="mobile-center badge mb-0">Praktikum</span>
-                  <p class="fw-light title-job" style="margin-bottom: 0">Dezember 2021 - Juni 2022</p>
-                  <div class="fw-light title-job subtitle" style="font-size: small">6 Monate</div>
-                  <p class="fw-light title-job subtitle" style="font-size: small">
+                  <span class="mobile-center badge mb-0" data-i18n="internship_badge">Praktikum</span>
+                  <p class="fw-light title-job" style="margin-bottom: 0" data-i18n="career_henkel_date">Dezember 2021 - Juni 2022</p>
+                  <div class="fw-light title-job subtitle" style="font-size: small" data-i18n="career_henkel_duration">6 Monate</div>
+                  <p class="fw-light title-job subtitle" style="font-size: small" data-i18n="career_henkel_dept">
                     Henkel Deutschland › Adhesive Technologies › Customer Service › Automotive & Aerospace
                   </p>
                   <ul>
-                    <li>Selbstständige Leitung eines Projektes, um Kunden-Stammdaten-Qualität zu erhöhen</li>
+                    <li data-i18n="career_henkel_li1">Selbstständige Leitung eines Projektes, um Kunden-Stammdaten-Qualität zu erhöhen</li>
                     <ul>
-                      <li>Erhebung von Daten zu Ansprechpartnern der Kunden aus SAP-ERP und weiteren Quellen</li>
-                      <li>Datenaufbereitung für Upload in SAP-Service-Cloud und Einführung der Salesforce CRM</li>
+                      <li data-i18n="career_henkel_li1a">Erhebung von Daten zu Ansprechpartnern der Kunden aus SAP-ERP und weiteren Quellen</li>
+                      <li data-i18n="career_henkel_li1b">Datenaufbereitung für Upload in SAP-Service-Cloud und Einführung der Salesforce CRM</li>
                     </ul>
                   </ul>
                 </div>
@@ -541,7 +556,7 @@
         </div>
       </div>
       <div id="Zertifikate" class="seite tab-content">
-        <div class="seitentitel">Zertifikate</div>
+        <div class="seitentitel" data-i18n="section_certificates">Zertifikate</div>
         <div class="seiteninhalte">
           <div class="col align-items-start">
             <div class="row align-items-start">
@@ -595,8 +610,8 @@
               <div class="col-md-9">
                 <div class="boxen">
                   <h5 class="mobile-center mb-0">Data Analyst Professional</h5>
-                  <p class="fw-light title-job" style="margin-bottom: 0">November 2021</p>
-                  <div class="fw-light title-job subtitle" style="font-size: small">2 Monate</div>
+                  <p class="fw-light title-job" style="margin-bottom: 0">September 2021 - November 2021</p>
+                  <div class="fw-light title-job subtitle" style="font-size: small" data-i18n="cert_duration_2">2 Monate</div>
                   <li class="list-group-item d-flex align-items-center" style="margin-bottom: 8px">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -613,11 +628,11 @@
                     Python, SQL
                   </li>
                   <ul>
-                    <li>Zertifizierung zum Data Analyst mit Schwerpunkten SQL und Python</li>
-                    <li>
+                    <li data-i18n="cert_datacamp_li1">Zertifizierung zum Data Analyst mit Schwerpunkten SQL und Python</li>
+                    <li data-i18n="cert_datacamp_li2">
                       Python: Datenimport, -bereinigung und -visualisierung mit Pandas, NumPy, Matplotlib, Seaborn
                     </li>
-                    <li>SQL: Syntax, Joins, Window Functions, CTEs</li>
+                    <li data-i18n="cert_datacamp_li3">SQL: Syntax, Joins, Window Functions, CTEs</li>
                   </ul>
                   <a
                     href="https://www.datacamp.com/certificate/DA0019920646026"
@@ -641,7 +656,7 @@
                         fill-rule="evenodd"
                         d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0z"
                       /></svg
-                    >zum Zertifikat</a
+                    ><span data-i18n="cert_link">zum Zertifikat</span></a
                   >
                 </div>
               </div>
@@ -696,9 +711,9 @@
               </div>
               <div class="col-md-9">
                 <div class="boxen">
-                  <h5 class="mobile-center mb-0">Excel Kurs Komplettpaket</h5>
-                  <p class="fw-light title-job" style="margin-bottom: 0">Dezember 2021</p>
-                  <div class="fw-light title-job subtitle" style="font-size: small">2 Monate</div>
+                  <h5 class="mobile-center mb-0" data-i18n="cert_excelhero_title">Excel Kurs Komplettpaket</h5>
+                  <p class="fw-light title-job" style="margin-bottom: 0" data-i18n="cert_excelhero_date">Oktober 2021 - Dezember 2021</p>
+                  <div class="fw-light title-job subtitle" style="font-size: small" data-i18n="cert_duration_2">2 Monate</div>
                   <li class="list-group-item d-flex align-items-center" style="margin-bottom: 8px">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -715,9 +730,9 @@
                     Excel
                   </li>
                   <ul>
-                    <li>Fokus aus Formeln, Funktionen, Pivot-Tabellen und Datenvisualisierung</li>
-                    <li>Kapitel zu Power Query und DAX</li>
-                    <li>VBA-Grundlagen: Fokus auf Makrorekorder</li>
+                    <li data-i18n="cert_excelhero_li1">Fokus aus Formeln, Funktionen, Pivot-Tabellen und Datenvisualisierung</li>
+                    <li data-i18n="cert_excelhero_li2">Kapitel zu Power Query und DAX</li>
+                    <li data-i18n="cert_excelhero_li3">VBA-Grundlagen: Fokus auf Makrorekorder</li>
                   </ul>
                   <a
                     href="https://www.udemy.com/certificate/UC-a7d42aff-2a78-444c-be68-d48389cd3465/?utm_source=sendgrid.com&utm_medium=email&utm_campaign=email"
@@ -741,7 +756,7 @@
                         fill-rule="evenodd"
                         d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0z"
                       /></svg
-                    >zum Zertifikat</a
+                    ><span data-i18n="cert_link">zum Zertifikat</span></a
                   >
                 </div>
               </div>
@@ -797,8 +812,8 @@
               <div class="col-md-9">
                 <div class="boxen bottom">
                   <h5 class="mobile-center mb-0">Data Analytics Professional</h5>
-                  <p class="fw-light title-job" style="margin-bottom: 0">April 2022</p>
-                  <div class="fw-light title-job subtitle" style="font-size: small">4 Monate</div>
+                  <p class="fw-light title-job" style="margin-bottom: 0" data-i18n="cert_google_date">Januar 2022 - April 2022</p>
+                  <div class="fw-light title-job subtitle" style="font-size: small" data-i18n="cert_duration_4">4 Monate</div>
                   <li class="list-group-item d-flex align-items-center" style="margin-bottom: 8px">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -815,10 +830,10 @@
                     SQL, Excel, Tableau, R
                   </li>
                   <ul>
-                    <li>SQL mit Google BigQuery</li>
-                    <li>Tableau mit Erarbeitung eigener Dashboards</li>
-                    <li>R: Ergänzung zum Studiumswissen</li>
-                    <li>Theoretischer Fokus: strukturiertes Denken und Rolle des Data Analysts</li>
+                    <li data-i18n="cert_google_li1">SQL mit Google BigQuery</li>
+                    <li data-i18n="cert_google_li2">Tableau mit Erarbeitung eigener Dashboards</li>
+                    <li data-i18n="cert_google_li3">R: Ergänzung zum Studiumswissen</li>
+                    <li data-i18n="cert_google_li4">Theoretischer Fokus: strukturiertes Denken und Rolle des Data Analysts</li>
                   </ul>
                   <a
                     href="https://www.credly.com/badges/93a36b78-e612-471f-979f-befd4455c185/public_url"
@@ -842,7 +857,7 @@
                         fill-rule="evenodd"
                         d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0z"
                       /></svg
-                    >zum Zertifikat</a
+                    ><span data-i18n="cert_link">zum Zertifikat</span></a
                   >
                 </div>
               </div>
@@ -851,7 +866,7 @@
         </div>
       </div>
       <div id="Bildungsweg" class="seite tab-content">
-        <div class="seitentitel">Bildungsweg</div>
+        <div class="seitentitel" data-i18n="section_education">Bildungsweg</div>
         <div class="seiteninhalte">
           <div class="col align-items-start">
             <div class="row align-items-start">
@@ -875,7 +890,7 @@
                     />
                   </picture>
                   <br />
-                  <strong>Heinrich-Heine-Universität</strong><br />
+                  <strong data-i18n="edu_hhu_name">Heinrich-Heine-Universität</strong><br />
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="13"
@@ -891,14 +906,14 @@
               </div>
               <div class="col-md-9">
                 <div class="boxen hvr-shrink">
-                  <span class="h5 title-job">Betriebswirtschaftslehre B.Sc.</span>
-                  <p class="fw-light title-job subtitle">Oktober 2017 – September 2021</p>
+                  <span class="h5 title-job" data-i18n="edu_degree">Betriebswirtschaftslehre B.Sc.</span>
+                  <p class="fw-light title-job subtitle" data-i18n="edu_hhu_date">Oktober 2017 – September 2021</p>
                   <ul>
-                    <li>Notendurchschnitt: 2,2</li>
-                    <li>
+                    <li data-i18n="edu_hhu_li1">Notendurchschnitt: 2,2</li>
+                    <li data-i18n="edu_hhu_li2">
                       Wahlpflichtmodule: Accounting, Praxisseminar Accounting, Management, Datenanalyse, Ökonometrie
                     </li>
-                    <li>
+                    <li data-i18n="edu_hhu_li3">
                       Bachelorarbeit: That's too much Information!? Was Big Data für Controlling und Controller bedeutet
                     </li>
                   </ul>
@@ -942,11 +957,11 @@
               </div>
               <div class="col-md-9">
                 <div class="boxen bottom hvr-shrink">
-                  <span class="h5 title-job">Abitur</span>
-                  <p class="fw-light title-job subtitle">September 2009 – Juli 2017</p>
+                  <span class="h5 title-job" data-i18n="edu_abitur">Abitur</span>
+                  <p class="fw-light title-job subtitle" data-i18n="edu_gym_date">September 2009 – Juli 2017</p>
                   <ul>
-                    <li>Notendurchschnitt: 1,6</li>
-                    <li>Prüfungsfächer: Mathematik, Sozialwissenschaften, Englisch, Philosophie</li>
+                    <li data-i18n="edu_gym_li1">Notendurchschnitt: 1,6</li>
+                    <li data-i18n="edu_gym_li2">Prüfungsfächer: Mathematik, Sozialwissenschaften, Englisch, Philosophie</li>
                   </ul>
                 </div>
               </div>
@@ -955,12 +970,12 @@
         </div>
       </div>
       <div id="Kontakt" class="seite tab-content">
-        <div class="seitentitel">Kontakt</div>
+        <div class="seitentitel" data-i18n="section_contact">Kontakt</div>
         <div class="seiteninhalte">
           <div class="row align-items-start">
             <div class="col-md-6">
-              <div class="boxen hvr-shrink">
-                <h4 style="margin-bottom: 20px">Zusammenfassung</h4>
+              <div class="boxen">
+                <h4 style="margin-bottom: 20px" data-i18n="contact_summary_heading">Zusammenfassung</h4>
                 <div
                   class="contact-about-me typewrite-once"
                   data-text="Ich arbeite daran, aus Daten klare, verständliche und handlungsorientierte Erkenntnisse zu gewinnen."
@@ -970,7 +985,7 @@
             </div>
             <div class="col-md-6">
               <div class="boxen hvr-shrink">
-                <h4 style="margin-bottom: 20px">Mich erreichen</h4>
+                <h4 style="margin-bottom: 20px" data-i18n="contact_reach_heading">Mich erreichen</h4>
                 <div class="d-grid gap-2 align-items-center">
                   <a
                     href="https://www.linkedin.com/in/oezguen-cakir"
@@ -1025,9 +1040,9 @@
                 </div>
               </div>
               <div class="boxen hvr-shrink">
-                <h4 style="margin-bottom: 20px">Über diese Seite</h4>
+                <h4 style="margin-bottom: 20px" data-i18n="contact_about_heading">Über diese Seite</h4>
                 <div class="d-grid gap-2 align-items-center">
-                  <a href="pages/about.html" class="language-toggle hvr-shrink" role="button">
+                  <a href="pages/about.html" class="language-toggle hvr-shrink" role="button" data-i18n="contact_about_link">
                     Wie und warum ich diese Seite gebaut habe
                   </a>
                 </div>
@@ -1038,12 +1053,13 @@
         <div class="foot">
           <hr />
           &copy; <span id="currentYear"></span> Özgün Cakir -
-          <a href="pages/imprint.html">Impressum</a>
+          <a href="pages/imprint.html" data-i18n="footer_imprint">Impressum</a>
         </div>
       </div>
     </div>
     <script src="scripts/progress_bar_animation.js" type="text/javascript" defer></script>
     <script src="scripts/toggle_dark_mode.js" type="text/javascript"></script>
+    <script src="scripts/toggle_language.js" type="text/javascript"></script>
     <script src="scripts/typewriter_once.js" type="text/javascript"></script>
     <script src="scripts/utils.js" type="text/javascript"></script>
     <script>
@@ -1084,13 +1100,43 @@
         const gridColor = () => (isDark() ? "rgba(255,255,255,0.08)" : "rgba(0,0,0,0.06)");
         const labelColor = () => (isDark() ? "#adb5bd" : "#555");
 
+        const getLang = () => localStorage.getItem("language") || "de";
+
+        const makeTooltipLabel = (lang) => (ctx) => {
+          const y = ctx.parsed.y;
+          const years = Math.floor(y);
+          const months = Math.round((y - years) * 12);
+          const isEn = lang === "en";
+          const forecastLabel = isEn ? "Forecast" : "Prognose";
+          const suffix = ctx.dataset.label === forecastLabel ? ` (${forecastLabel})` : "";
+          if (isEn) {
+            return (
+              (years > 0 ? years + " yr" + (years !== 1 ? "s" : "") : "") +
+              (months > 0 ? (years > 0 ? " " : "") + months + " mo." : "") +
+              suffix
+            );
+          }
+          return (
+            (years > 0 ? years + " J" + (years !== 1 ? "ahre" : "ahr") : "") +
+            (months > 0 ? (years > 0 ? " " : "") + months + " Mon." : "") +
+            suffix
+          );
+        };
+
+        const makeTooltipTitle = (lang) => (items) =>
+          new Date(items[0].parsed.x).toLocaleDateString(lang === "en" ? "en-US" : "de-DE", {
+            month: "short",
+            year: "numeric",
+          });
+
+        const lang = getLang();
         const ctx = document.getElementById("careerChart").getContext("2d");
         const chart = new Chart(ctx, {
           type: "line",
           data: {
             datasets: [
               {
-                label: "Berufserfahrung",
+                label: lang === "en" ? "Work Experience" : "Berufserfahrung",
                 data: actualData,
                 borderColor: accentColor,
                 backgroundColor: accentColor + "22",
@@ -1101,7 +1147,7 @@
                 tension: 0,
               },
               {
-                label: "Prognose",
+                label: lang === "en" ? "Forecast" : "Prognose",
                 data: projectedData,
                 borderColor: accentColor,
                 backgroundColor: "transparent",
@@ -1124,19 +1170,8 @@
               legend: { display: false },
               tooltip: {
                 callbacks: {
-                  label: (ctx) => {
-                    const y = ctx.parsed.y;
-                    const years = Math.floor(y);
-                    const months = Math.round((y - years) * 12);
-                    const suffix = ctx.dataset.label === "Prognose" ? " (Prognose)" : "";
-                    return (
-                      (years > 0 ? years + " J" + (years !== 1 ? "ahre" : "ahr") : "") +
-                      (months > 0 ? (years > 0 ? " " : "") + months + " Mon." : "") +
-                      suffix
-                    );
-                  },
-                  title: (items) =>
-                    new Date(items[0].parsed.x).toLocaleDateString("de-DE", { month: "short", year: "numeric" }),
+                  label: makeTooltipLabel(lang),
+                  title: makeTooltipTitle(lang),
                 },
               },
             },
@@ -1155,7 +1190,7 @@
                   color: labelColor(),
                   stepSize: 1,
                   font: { size: 10 },
-                  callback: (v) => v + " J.",
+                  callback: (v) => v + (lang === "en" ? " yr." : " J."),
                 },
                 grid: { color: gridColor() },
               },
@@ -1168,6 +1203,15 @@
           chart.options.scales.x.ticks.color = labelColor();
           chart.options.scales.y.grid.color = gridColor();
           chart.options.scales.y.ticks.color = labelColor();
+          chart.update("none");
+        };
+
+        window.updateChartLang = (newLang) => {
+          chart.data.datasets[0].label = newLang === "en" ? "Work Experience" : "Berufserfahrung";
+          chart.data.datasets[1].label = newLang === "en" ? "Forecast" : "Prognose";
+          chart.options.plugins.tooltip.callbacks.label = makeTooltipLabel(newLang);
+          chart.options.plugins.tooltip.callbacks.title = makeTooltipTitle(newLang);
+          chart.options.scales.y.ticks.callback = (v) => v + (newLang === "en" ? " yr." : " J.");
           chart.update("none");
         };
 

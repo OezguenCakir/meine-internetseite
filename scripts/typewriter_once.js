@@ -5,8 +5,10 @@
   "use strict";
 
   function typeOnce(el, text, speed) {
-    // Zuerst vollen Text setzen, um die endgültige Höhe zu messen und zu fixieren —
-    // verhindert, dass die Box beim Tippen wächst
+    // Breite zuerst fixieren, dann vollen Text setzen, Höhe messen und fixieren —
+    // verhindert, dass die Box beim Tippen in beide Richtungen wächst
+    el.style.minHeight = "";
+    el.style.width = el.offsetWidth + "px";
     el.textContent = text;
     el.style.minHeight = el.offsetHeight + "px";
     el.textContent = "";
@@ -48,4 +50,11 @@
       observer.observe(el);
     });
   });
+
+  // Global verfügbar machen für Sprachswitch
+  window.startTypewriterOnce = (el) => {
+    const text = el.getAttribute("data-text") || "";
+    const speed = parseInt(el.getAttribute("data-speed") || "40", 10);
+    typeOnce(el, text, speed);
+  };
 })();
