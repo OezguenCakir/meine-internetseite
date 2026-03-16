@@ -31,7 +31,7 @@
     de: {
       // Navigation
       nav_overview: "Übersicht",
-      nav_career: "Berufliche Laufbahn",
+      nav_career: "Karriere",
       nav_certificates: "Zertifikate",
       nav_education: "Bildungsweg",
       nav_contact: "Kontakt",
