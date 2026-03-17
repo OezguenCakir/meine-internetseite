@@ -1,4 +1,113 @@
+.hamburger-btn {
+  display: none;
+}
+
+.mobile-menu {
+  display: none;
+}
+
 @media (max-width: 900px) {
+  .hamburger-btn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 6px;
+    width: 36px;
+    height: 36px;
+  }
+
+  .hamburger-btn span {
+    display: block;
+    width: 22px;
+    height: 2px;
+    background: #fff;
+    border-radius: 2px;
+    transition:
+      transform 0.2s ease,
+      opacity 0.2s ease;
+  }
+
+  .hamburger-btn.open span:nth-child(1) {
+    transform: translateY(7px) rotate(45deg);
+  }
+
+  .hamburger-btn.open span:nth-child(2) {
+    opacity: 0;
+  }
+
+  .hamburger-btn.open span:nth-child(3) {
+    transform: translateY(-7px) rotate(-45deg);
+  }
+
+  .mobile-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: var(--third-color);
+    display: none;
+    flex-direction: column;
+    z-index: 998;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  }
+
+  .mobile-menu.open {
+    display: flex;
+  }
+
+  .mobile-menu a.nav-link {
+    display: block !important;
+    visibility: visible !important;
+    width: 100% !important;
+    color: #fff !important;
+    padding: 14px 20px !important;
+    margin: 0 !important;
+    border-radius: 0 !important;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    text-align: left;
+  }
+
+  .mobile-menu a.nav-link:last-child {
+    border-bottom: none;
+  }
+
+  .mobile-menu-toggles {
+    display: flex;
+    align-items: center;
+    padding: 8px 12px;
+    border-top: 1px solid rgba(255, 255, 255, 0.15);
+    gap: 4px;
+  }
+
+  .mobile-theme-btn,
+  .mobile-lang-btn {
+    background: none !important;
+    border: none !important;
+    color: #fff !important;
+    cursor: pointer;
+    display: flex !important;
+    align-items: center;
+    padding: 8px 10px !important;
+    font-size: 0.85rem;
+    font-weight: 600;
+    border-radius: 8px;
+    visibility: visible !important;
+    width: auto !important;
+  }
+
+  .mobile-theme-btn:hover,
+  .mobile-lang-btn:hover {
+    background-color: rgba(255, 255, 255, 0.1) !important;
+  }
+
   .navbar .nav-link {
     display: none;
     visibility: collapse;
@@ -15,10 +124,11 @@
     width: 100%;
   }
   .navbar {
-    justify-content: center !important;
+    justify-content: flex-start !important;
   }
   .navbar-brand {
-    margin-right: 0px !important;
+    margin-left: 15px !important;
+    margin-right: 0 !important;
   }
   .mobile-center {
     text-align: center !important;
