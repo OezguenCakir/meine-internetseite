@@ -18,6 +18,12 @@
     background-color: var(--accent-color) !important;
     color: #fff !important;
   }
+  html:not([data-bs-theme="light"]) #scroll-to-top {
+    background-color: var(--third-color);
+  }
+  html:not([data-bs-theme="light"]) #scroll-to-top:hover {
+    background-color: var(--accent-color);
+  }
   html:not([data-bs-theme="light"]) .contact-btn {
     background: rgba(255, 255, 255, 0.15) !important;
     border: 1px solid rgba(255, 255, 255, 0.25);
@@ -71,6 +77,14 @@
 [data-bs-theme="dark"] #skills-button {
   background-color: var(--accent-color) !important;
   color: #fff !important;
+}
+
+[data-bs-theme="dark"] #scroll-to-top {
+  background-color: var(--third-color);
+}
+
+[data-bs-theme="dark"] #scroll-to-top:hover {
+  background-color: var(--accent-color);
 }
 
 [data-bs-theme="dark"] .contact-btn {
