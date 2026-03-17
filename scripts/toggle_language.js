@@ -8,8 +8,15 @@
   const setStoredLang = (lang) => localStorage.setItem("language", lang);
 
   const getPreferredLang = () => {
+    const urlLang = new URLSearchParams(window.location.search).get("lang");
+    if (urlLang === "de" || urlLang === "en") {
+      setStoredLang(urlLang);
+      return urlLang;
+    }
     const stored = getStoredLang();
-    return stored === "de" || stored === "en" ? stored : "de";
+    if (stored === "de" || stored === "en") return stored;
+    const browserLang = (navigator.language || "").toLowerCase();
+    return browserLang.startsWith("en") ? "en" : "de";
   };
 
   // Berechnet Datumsdifferenz sprachabhängig als "X Jahre Y Monate" / "X years Y months"
