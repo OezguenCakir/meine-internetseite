@@ -35,6 +35,12 @@
       nav_certificates: "Zertifikate",
       nav_education: "Bildungsweg",
       nav_contact: "Kontakt",
+      // 404
+      error_404_heading: "Seite nicht gefunden",
+      error_404_desc: "Diese Seite existiert leider nicht – aber hier sind ein paar Orte, die es gibt:",
+      error_404_home: "Zur Startseite",
+      error_404_skills: "Technische Fähigkeiten",
+      error_404_about: "Über diese Seite",
       // Hero
       hero_greeting: "Hallo, ich bin Özgün.<br />Data Analyst.<br />",
       hero_cta: "Kontakt aufnehmen",
@@ -62,9 +68,12 @@
       career_axa_date: "Juli 2022 - heute",
       career_axa_location: "Köln",
       career_axa_dept: "AXA Deutschland › Sachversicherung › Schaden › Analytik & Steuerung",
-      career_axa_li1: "Analyse und Aufbereitung von Schadendaten zur Unterstützung strategischer und operativer Entscheidungen",
-      career_axa_li2: "Aufbau von PowerBI-Dashboards mit etwa 200 Aufrufen täglich, die Ad-hoc-Anfragen deutlich reduzierten",
-      career_axa_li3: "Gestaltung und Optimierung von ETL-Prozessen in Snowflake zur automatisierten Datenbereitstellung mit integrierten Datenqualitätsprüfungen und Scheduling",
+      career_axa_li1:
+        "Analyse und Aufbereitung von Schadendaten zur Unterstützung strategischer und operativer Entscheidungen",
+      career_axa_li2:
+        "Aufbau von PowerBI-Dashboards mit etwa 200 Aufrufen täglich, die Ad-hoc-Anfragen deutlich reduzierten",
+      career_axa_li3:
+        "Gestaltung und Optimierung von ETL-Prozessen in Snowflake zur automatisierten Datenbereitstellung mit integrierten Datenqualitätsprüfungen und Scheduling",
       internship_badge: "Praktikum",
       career_henkel_dept: "Henkel Deutschland › Adhesive Technologies › Customer Service › Automotive & Aerospace",
       career_henkel_date: "Dezember 2021 - Juni 2022",
@@ -105,7 +114,8 @@
       // Kontakt
       section_contact: "Kontakt",
       contact_summary_heading: "Zusammenfassung",
-      contact_summary_text: "Ich arbeite daran, aus Daten klare, verständliche und handlungsorientierte Erkenntnisse zu gewinnen.",
+      contact_summary_text:
+        "Ich arbeite daran, aus Daten klare, verständliche und handlungsorientierte Erkenntnisse zu gewinnen.",
       contact_reach_heading: "Mich erreichen",
       contact_about_heading: "Über diese Seite",
       contact_about_link: "Wie und warum ich diese Seite gebaut habe",
@@ -116,38 +126,62 @@
       skills_strength: "Stärke",
       skills_where: "Wo ich damit gearbeitet habe",
       // SQL
-      sql_p1: "SQL sehe ich als eine meiner Stärken und Lieblingsaufgaben bei meiner Arbeit. Hierbei mag ich es, auch längere und komplexere Skripte mit mehreren CTEs oder aufeinander aufbauenden Views zu schreiben.",
-      sql_p2: "Mit SQL baue ich hauptsächlich Datenpipelines für Dashboards. Dies umfasst neben der Datenabfrage gegebenenfalls auch komplexere Transformationen. Ich kann dafür alle Vorzüge von SQL nutzen – also neben den Standardfunktionen unter anderem auch Window Functions.",
-      sql_p3: "Beruflich arbeite ich mit Snowflake. Dabei schätze ich es, besondere Funktionen von Snowflake anwenden zu können, wie beispielsweise <code>QUALIFY</code>, um die aus Window Functions resultierenden Spalten zu filtern. Ein weiteres Beispiel wäre <code>GROUP BY ALL</code>, um bei <code>GROUP BY</code>-Befehlen nicht alle zu gruppierenden Spalten aufzählen zu müssen.",
+      sql_p1:
+        "SQL sehe ich als eine meiner Stärken und Lieblingsaufgaben bei meiner Arbeit. Hierbei mag ich es, auch längere und komplexere Skripte mit mehreren CTEs oder aufeinander aufbauenden Views zu schreiben.",
+      sql_p2:
+        "Mit SQL baue ich hauptsächlich Datenpipelines für Dashboards. Dies umfasst neben der Datenabfrage gegebenenfalls auch komplexere Transformationen. Ich kann dafür alle Vorzüge von SQL nutzen – also neben den Standardfunktionen unter anderem auch Window Functions.",
+      sql_p3:
+        "Beruflich arbeite ich mit Snowflake. Dabei schätze ich es, besondere Funktionen von Snowflake anwenden zu können, wie beispielsweise <code>QUALIFY</code>, um die aus Window Functions resultierenden Spalten zu filtern. Ein weiteres Beispiel wäre <code>GROUP BY ALL</code>, um bei <code>GROUP BY</code>-Befehlen nicht alle zu gruppierenden Spalten aufzählen zu müssen.",
       // Power BI
-      powerbi_p1: "In den letzten Jahren habe ich viel mit Power BI arbeiten können. Dabei habe ich Power BI schätzen gelernt, frustriere mich aber auch regelmäßig über die Eigenarten des Programms.",
-      powerbi_p2: "Ich baue besonders gerne automatisierte Power BI-Apps mit geringem Wartungsbedarf. Die Measures schreibe ich strukturiert, wobei sie nur das berechnen, was ich nicht bereits in der Datenpipeline bereitstellen kann – auf berechnete Spalten verzichte ich dabei bewusst.",
-      powerbi_p3: "Auf das Design lege ich großen Wert und versuche die User Experience auch durch möglichst kurze Ladezeiten zu optimieren. Funktionen wie Feld-Parameter für selbst konfigurierbare Visualisierungen sowie Kartenvisualisierungen bis auf Hausebene gehören dabei zu Aufgaben, die ich bereits umgesetzt habe.",
+      powerbi_p1:
+        "In den letzten Jahren habe ich viel mit Power BI arbeiten können. Dabei habe ich Power BI schätzen gelernt, frustriere mich aber auch regelmäßig über die Eigenarten des Programms.",
+      powerbi_p2:
+        "Ich baue besonders gerne automatisierte Power BI-Apps mit geringem Wartungsbedarf. Die Measures schreibe ich strukturiert, wobei sie nur das berechnen, was ich nicht bereits in der Datenpipeline bereitstellen kann – auf berechnete Spalten verzichte ich dabei bewusst.",
+      powerbi_p3:
+        "Auf das Design lege ich großen Wert und versuche die User Experience auch durch möglichst kurze Ladezeiten zu optimieren. Funktionen wie Feld-Parameter für selbst konfigurierbare Visualisierungen sowie Kartenvisualisierungen bis auf Hausebene gehören dabei zu Aufgaben, die ich bereits umgesetzt habe.",
       // Python
-      python_p1: "Mit Python arbeite ich seit dem Studium gerne. Beruflich nutze ich Python vor allem dort, wo SQL an seine Grenzen stößt.",
-      python_p2: "Meine Arbeit umfasst vor allem die klassischen Libraries für Datenverarbeitung wie Pandas und NumPy, aber auch Plotly für Visualisierungen.",
-      python_p3: "Privat habe ich ebenfalls bereits häufiger mit Streamlit gearbeitet. Damit lassen sich Ergebnisse aus Python unkompliziert im Browser visualisieren – so zum Beispiel eine Auswertung meiner Kontoausgaben, die ich damit regelmäßig verfolge.",
+      python_p1:
+        "Mit Python arbeite ich seit dem Studium gerne. Beruflich nutze ich Python vor allem dort, wo SQL an seine Grenzen stößt.",
+      python_p2:
+        "Meine Arbeit umfasst vor allem die klassischen Libraries für Datenverarbeitung wie Pandas und NumPy, aber auch Plotly für Visualisierungen.",
+      python_p3:
+        "Privat habe ich ebenfalls bereits häufiger mit Streamlit gearbeitet. Damit lassen sich Ergebnisse aus Python unkompliziert im Browser visualisieren – so zum Beispiel eine Auswertung meiner Kontoausgaben, die ich damit regelmäßig verfolge.",
       // Git
-      git_p1: "Bei meiner Arbeit nutze ich Git und GitHub für die Versionskontrolle. GitHub habe ich dabei sehr schätzen gelernt und möchte auf die Vorteile nicht mehr verzichten.",
-      git_p2: "Ich kann auch über die CLI arbeiten, nutze jedoch meistens die Git-Integration von PyCharm. Die gängigen Befehle beherrsche ich sicher, wobei Situationen wie Merge Conflicts selten ein Problem darstellen.",
+      git_p1:
+        "Bei meiner Arbeit nutze ich Git und GitHub für die Versionskontrolle. GitHub habe ich dabei sehr schätzen gelernt und möchte auf die Vorteile nicht mehr verzichten.",
+      git_p2:
+        "Ich kann auch über die CLI arbeiten, nutze jedoch meistens die Git-Integration von PyCharm. Die gängigen Befehle beherrsche ich sicher, wobei Situationen wie Merge Conflicts selten ein Problem darstellen.",
       // Excel
-      excel_p1: "Nachdem ich im Laufe der Jahre immer wieder mit Excel gearbeitet hatte, entschied ich mich für eine intensivere Auseinandersetzung mit dem Programm - mithilfe eines Kurses auf Udemy. Dadurch konnte ich die Vorzüge kennenlernen und meine Fähigkeiten ausbauen.",
-      excel_p2: "Als Praktikant bei Henkel konnte ich diese Fähigkeiten einsetzen und mir im Team den Ruf als Ansprechperson für Excel-Fragen erarbeiten.",
-      excel_p3: "Mittlerweile arbeite ich deutlich weniger intensiv mit Excel. Dennoch kommt das Programm für schnelle Berechnungen und klassische Anwendungsfälle regelmäßig zum Einsatz.",
+      excel_p1:
+        "Nachdem ich im Laufe der Jahre immer wieder mit Excel gearbeitet hatte, entschied ich mich für eine intensivere Auseinandersetzung mit dem Programm - mithilfe eines Kurses auf Udemy. Dadurch konnte ich die Vorzüge kennenlernen und meine Fähigkeiten ausbauen.",
+      excel_p2:
+        "Als Praktikant bei Henkel konnte ich diese Fähigkeiten einsetzen und mir im Team den Ruf als Ansprechperson für Excel-Fragen erarbeiten.",
+      excel_p3:
+        "Mittlerweile arbeite ich deutlich weniger intensiv mit Excel. Dennoch kommt das Programm für schnelle Berechnungen und klassische Anwendungsfälle regelmäßig zum Einsatz.",
       // PowerPoint
-      ppt_p1: "PowerPoint begleitet mich seit meiner Schulzeit – von einfachen Präsentationen bis hin zu strukturierten Vorträgen im Studium und im Beruf.",
-      ppt_p2: "Im Praktikum bei Henkel nutzte ich PowerPoint regelmäßig, um Analysen und Ergebnisse klar und ansprechend zu präsentieren.",
-      ppt_p3: "Mittlerweile setze ich PowerPoint seltener ein, da ich Inhalte zunehmend direkt in interaktiven Dashboards oder Reports aufbereite.",
+      ppt_p1:
+        "PowerPoint begleitet mich seit meiner Schulzeit – von einfachen Präsentationen bis hin zu strukturierten Vorträgen im Studium und im Beruf.",
+      ppt_p2:
+        "Im Praktikum bei Henkel nutzte ich PowerPoint regelmäßig, um Analysen und Ergebnisse klar und ansprechend zu präsentieren.",
+      ppt_p3:
+        "Mittlerweile setze ich PowerPoint seltener ein, da ich Inhalte zunehmend direkt in interaktiven Dashboards oder Reports aufbereite.",
       // Streamlit
-      streamlit_p1: "Streamlit nutze ich ausschließlich für private Projekte – als schnelle Möglichkeit, Python-Auswertungen interaktiv erlebbar zu machen.",
-      streamlit_p2: "Entstanden sind dabei unter anderem eine App zur Analyse meiner persönlichen Finanzen sowie ein Dashboard, das mein chess.com-Profil und meine Partien auswertet.",
-      streamlit_p3: "Beruflich setze ich Streamlit bisher nicht ein – es ist für mich ein Werkzeug, um Ideen schnell umzusetzen und Daten auf eigene Fragestellungen hin zu erkunden.",
+      streamlit_p1:
+        "Streamlit nutze ich ausschließlich für private Projekte – als schnelle Möglichkeit, Python-Auswertungen interaktiv erlebbar zu machen.",
+      streamlit_p2:
+        "Entstanden sind dabei unter anderem eine App zur Analyse meiner persönlichen Finanzen sowie ein Dashboard, das mein chess.com-Profil und meine Partien auswertet.",
+      streamlit_p3:
+        "Beruflich setze ich Streamlit bisher nicht ein – es ist für mich ein Werkzeug, um Ideen schnell umzusetzen und Daten auf eigene Fragestellungen hin zu erkunden.",
       // HTML & CSS
-      htmlcss_p1: "Im Rahmen der Arbeiten an dieser Seite habe ich mich intensiv mit HTML und CSS auseinandergesetzt. Ich schätze die gestalterischen Möglichkeiten, die mir die Arbeit an dieser Seite bietet.",
-      htmlcss_p2: "Nennenswert ist auch, wie mein Verständnis für den Aufbau von Webseiten in dieser Zeit gewachsen ist. Mit JavaScript hatte ich dabei ebenfalls Berührungspunkte – ein tieferes Verständnis habe ich jedoch bewusst nicht angestrebt.",
+      htmlcss_p1:
+        "Im Rahmen der Arbeiten an dieser Seite habe ich mich intensiv mit HTML und CSS auseinandergesetzt. Ich schätze die gestalterischen Möglichkeiten, die mir die Arbeit an dieser Seite bietet.",
+      htmlcss_p2:
+        "Nennenswert ist auch, wie mein Verständnis für den Aufbau von Webseiten in dieser Zeit gewachsen ist. Mit JavaScript hatte ich dabei ebenfalls Berührungspunkte – ein tieferes Verständnis habe ich jedoch bewusst nicht angestrebt.",
       // Tableau
-      tableau_p1: "Tableau habe ich im Rahmen des Google Data Analytics-Zertifikats kennengelernt, wo es als zentrales Visualisierungswerkzeug eingesetzt wurde.",
-      tableau_p2: "Ich habe die Grundlagen erlernt und erste Dashboards erstellt – beruflich oder in eigenen Projekten nutze ich Tableau bisher jedoch nicht aktiv.",
+      tableau_p1:
+        "Tableau habe ich im Rahmen des Google Data Analytics-Zertifikats kennengelernt, wo es als zentrales Visualisierungswerkzeug eingesetzt wurde.",
+      tableau_p2:
+        "Ich habe die Grundlagen erlernt und erste Dashboards erstellt – beruflich oder in eigenen Projekten nutze ich Tableau bisher jedoch nicht aktiv.",
       // Skill-Pills
       skill_axa: "Data Analyst bei AXA",
       skill_datacamp_pill: "DataCamp: Data Analyst Professional",
@@ -163,36 +197,50 @@
       about_section1_title: "Wie alles begann",
       about_motivation_heading: "Motivation",
       about_motivation_p1: "Für die Bewerbungsphase im Mai 2022 habe ich eine eigene Internetseite erstellt.",
-      about_motivation_p2: "Der Grund dafür war, dass ich einige Inhalte in meinem Lebenslauf unterbringen wollte, für die dort kein Platz mehr war. Dazu gehörten Links zu einzelnen Projekten aus meinem Portfolio sowie Texte zu Kursen, die ich außerhalb meines Studiums absolviert habe. Zusätzlich fand ich die Idee einer eigenen Internetseite spannend und wollte einen weiteren Punkt haben, mit dem ich aus der Masse herausstechen konnte.",
+      about_motivation_p2:
+        "Der Grund dafür war, dass ich einige Inhalte in meinem Lebenslauf unterbringen wollte, für die dort kein Platz mehr war. Dazu gehörten Links zu einzelnen Projekten aus meinem Portfolio sowie Texte zu Kursen, die ich außerhalb meines Studiums absolviert habe. Zusätzlich fand ich die Idee einer eigenen Internetseite spannend und wollte einen weiteren Punkt haben, mit dem ich aus der Masse herausstechen konnte.",
       about_how_built_heading: "Wie ich die Seite gebaut hatte",
-      about_how_built_p1: "Über Google Sites hatte ich mir die Seite zusammengeklickt. So konnte ich eine Seite schnell und ohne viel technischen Aufwand basteln.",
-      about_how_built_p2: "Die Domain hatte ich über Google Domains gekauft und mit der Seite verknüpft. Die einzigen Kosten, die die Webseite verursachte, waren 7 € pro Jahr für die Domain.",
+      about_how_built_p1:
+        "Über Google Sites hatte ich mir die Seite zusammengeklickt. So konnte ich eine Seite schnell und ohne viel technischen Aufwand basteln.",
+      about_how_built_p2:
+        "Die Domain hatte ich über Google Domains gekauft und mit der Seite verknüpft. Die einzigen Kosten, die die Webseite verursachte, waren 7 € pro Jahr für die Domain.",
       about_old_portfolio_heading: "Mein damaliges Portfolio",
-      about_old_portfolio_p1: "Mein Portfolio basierte im Wesentlichen auf meinen eigenen Daten. Dabei hatte ich von den jeweiligen Diensten meine Daten angefordert und diese ausgewertet.",
-      about_old_portfolio_p2: "Meine Amazon-Daten hatte ich mit Excel und PowerPoint ausgewertet. Tableau hatte ich benutzt, um meine Netflix- und Spotify-Daten zu visualisieren. Die SQL-Queries und die PowerPoint-Präsentation von meiner DataCamp-Zertifizierung hatte ich auch hochgeladen.",
+      about_old_portfolio_p1:
+        "Mein Portfolio basierte im Wesentlichen auf meinen eigenen Daten. Dabei hatte ich von den jeweiligen Diensten meine Daten angefordert und diese ausgewertet.",
+      about_old_portfolio_p2:
+        "Meine Amazon-Daten hatte ich mit Excel und PowerPoint ausgewertet. Tableau hatte ich benutzt, um meine Netflix- und Spotify-Daten zu visualisieren. Die SQL-Queries und die PowerPoint-Präsentation von meiner DataCamp-Zertifizierung hatte ich auch hochgeladen.",
       about_old_portfolio_p3: "Aktuell sehe ich aber keinen Bedarf mehr für ein Portfolio.",
       about_google_sites_start: "Der Beginn mit Google Sites",
       about_portfolio_box_title: "Mein damaliges Portfolio",
       about_spotify_box_title: "Spotify-Dashboard",
       about_modal_gs_title: "Der Beginn mit Google Sites",
-      about_modal_gs_caption: "So sah die Startseite aus. Ich hatte damals schon die Domain, sodass oben <code>www.özgüncakir.de</code> stand.",
+      about_modal_gs_caption:
+        "So sah die Startseite aus. Ich hatte damals schon die Domain, sodass oben <code>www.özgüncakir.de</code> stand.",
       about_modal_portfolio_title: "Mein damaliges Portfolio",
       about_modal_portfolio_caption: "Die Bilder habe ich übrigens mit Canva gestaltet.",
       about_modal_spotify_title: "Spotify-Dashboard",
-      about_modal_spotify_caption: "Mittlerweile sehen meine Dashboards ganz anders aus. Seitdem habe ich auch nicht mehr mit Tableau gearbeitet.",
+      about_modal_spotify_caption:
+        "Mittlerweile sehen meine Dashboards ganz anders aus. Seitdem habe ich auch nicht mehr mit Tableau gearbeitet.",
       about_section2_title: "Der nächste Schritt",
       about_end_heading: "Das Ende der alten Seite",
       about_end_p1: "Nach einer erfolgreichen Bewerbungsphase konnte meine Seite ihren Zweck erfüllen.",
-      about_end_p2: "Jedoch hatte mich der Ehrgeiz gepackt, eine eigene Seite zu bauen, statt sie nur zusammenzuklicken. Die Seite sollte auch für Mobilgeräte optimiert werden können und beim Design wollte ich mehr Möglichkeiten haben. Ich habe auch Spaß an Projekten dieser Art. Ich mag es nämlich, mich hinzusetzen und mit technischen Problemen herumzuschlagen, während ich etwas baue. So habe ich diese neue Seite bereits Mitte 2022 begonnen und in vielen kleinen Schritten langsam bearbeitet.",
+      about_end_p2:
+        "Jedoch hatte mich der Ehrgeiz gepackt, eine eigene Seite zu bauen, statt sie nur zusammenzuklicken. Die Seite sollte auch für Mobilgeräte optimiert werden können und beim Design wollte ich mehr Möglichkeiten haben. Ich habe auch Spaß an Projekten dieser Art. Ich mag es nämlich, mich hinzusetzen und mit technischen Problemen herumzuschlagen, während ich etwas baue. So habe ich diese neue Seite bereits Mitte 2022 begonnen und in vielen kleinen Schritten langsam bearbeitet.",
       about_webflow_heading: "Neuer Versuch mit Webflow",
-      about_webflow_p1: "Zuerst habe ich mit Webflow versucht, die neue Seite zu erstellen. Webflow bietet zwar wesentlich mehr Funktionen als Google Sites, das ging mir aber hinsichtlich der Anpassungsmöglichkeiten nicht weit genug. Zudem wollte ich nicht schon wieder mit einem Baukasten arbeiten müssen und davon abhängig sein. Das Ganze führte dazu, dass ich mich eines Tages bereit fühlte, eine Seite selbst auf die Beine zu stellen und den Code dafür zu schreiben.",
+      about_webflow_p1:
+        "Zuerst habe ich mit Webflow versucht, die neue Seite zu erstellen. Webflow bietet zwar wesentlich mehr Funktionen als Google Sites, das ging mir aber hinsichtlich der Anpassungsmöglichkeiten nicht weit genug. Zudem wollte ich nicht schon wieder mit einem Baukasten arbeiten müssen und davon abhängig sein. Das Ganze führte dazu, dass ich mich eines Tages bereit fühlte, eine Seite selbst auf die Beine zu stellen und den Code dafür zu schreiben.",
       about_outdated_heading: "Mittlerweile überholte Entscheidungen",
-      about_outdated_p1: "Zu Beginn war die Seite wesentlich bunter, seitdem habe ich aber die Farbvielfalt reduziert. Das lag zum einen daran, dass die Seite etwas professioneller aussehen sollte, aber auch um einen Dark-Mode besser einführen zu können.",
-      about_outdated_p3: "Die Seite hatte eine Seitenleiste, statt einer Navigationsleiste oben. Die Seitenleiste habe ich nach oben verschoben, um ein einheitlicheres Design unabhängig von der Bildschirmgröße zu ermöglichen. Dadurch stand auch der Inhalt mehr im Zentrum.",
+      about_outdated_p1:
+        "Zu Beginn war die Seite wesentlich bunter, seitdem habe ich aber die Farbvielfalt reduziert. Das lag zum einen daran, dass die Seite etwas professioneller aussehen sollte, aber auch um einen Dark-Mode besser einführen zu können.",
+      about_outdated_p3:
+        "Die Seite hatte eine Seitenleiste, statt einer Navigationsleiste oben. Die Seitenleiste habe ich nach oben verschoben, um ein einheitlicheres Design unabhängig von der Bildschirmgröße zu ermöglichen. Dadurch stand auch der Inhalt mehr im Zentrum.",
       about_productivity_heading: "Produktivität der Seite",
-      about_productivity_p1: "Ich hatte die erste Version der Seite schon im September 2022 deployed. Dies lief über GitHub Pages. Dadurch konnte ich die Seite einfach und kostenlos über GitHub hosten.",
-      about_productivity_p2: "Das zugehörige Repository habe ich aber mittlerweile archiviert. Es ist voller kleiner Commits, die teilweise ein wenig fragwürdig erscheinen. Außerdem kann es sein, dass ich auf Prod getestet habe. Da versteht es sich, dass ich meine Spuren verwischen möchte und mit einem neuen Repository angefangen habe.",
-      about_productivity_p3: "Die Seite habe ich zwischenzeitlich runtergenommen. Das lag daran, dass sie die ganze Zeit unvollständig war und ich mich so zwingen wollte, sie endlich abzuschließen.",
+      about_productivity_p1:
+        "Ich hatte die erste Version der Seite schon im September 2022 deployed. Dies lief über GitHub Pages. Dadurch konnte ich die Seite einfach und kostenlos über GitHub hosten.",
+      about_productivity_p2:
+        "Das zugehörige Repository habe ich aber mittlerweile archiviert. Es ist voller kleiner Commits, die teilweise ein wenig fragwürdig erscheinen. Außerdem kann es sein, dass ich auf Prod getestet habe. Da versteht es sich, dass ich meine Spuren verwischen möchte und mit einem neuen Repository angefangen habe.",
+      about_productivity_p3:
+        "Die Seite habe ich zwischenzeitlich runtergenommen. Das lag daran, dass sie die ganze Zeit unvollständig war und ich mich so zwingen wollte, sie endlich abzuschließen.",
       about_modal_gs_sep_title: "Die Trennung von Google Sites",
       about_webflow_new_start: "Neuer Anfang mit Webflow",
       about_sidebar_title: "Seite mit Seitenleiste",
@@ -210,7 +258,8 @@
       about_accent_color: "Akzentfarbe",
       about_dark_mode_label: "Dark-Mode",
       about_canva_heading: "Bildbearbeitung",
-      about_canva_p1: "Für die Bildbearbeitung habe ich Canva genutzt. Canva funktioniert einfach und macht so ziemlich alles was ich brauche.",
+      about_canva_p1:
+        "Für die Bildbearbeitung habe ich Canva genutzt. Canva funktioniert einfach und macht so ziemlich alles was ich brauche.",
       about_bootstrap_heading: "Bootstrap als front-end framework",
       about_bootstrap_text:
         'Ich benutze <a href="https://getbootstrap.com" target="_blank" rel="noopener noreferrer">Bootstrap</a> für meine Seite, so wie es 19 % aller Internetseiten machen. Bootstrap bietet viele Designvorlagen für die Knöpfe, die Navigationsleiste, den Dark-Mode und vieles mehr.',
@@ -220,9 +269,11 @@
       about_hover_text:
         'Für die Schrumpfen- und Vergrößerungs-Animation habe ich <a href="https://github.com/IanLunn/Hover" target="_blank" rel="noopener noreferrer">Hover.css von Ian Lunn</a> verwendet. Die Schrumpfen-Animation gefällt mir so sehr, dass ich sie fast überall verwendet habe.',
       about_modal_dark_mode_title: "Seite im Dark Mode",
-      about_modal_dark_mode_caption: "Stellt gerne bei euch den Dark-Modus ein und bewundert die Seite gleich noch einmal.",
+      about_modal_dark_mode_caption:
+        "Stellt gerne bei euch den Dark-Modus ein und bewundert die Seite gleich noch einmal.",
       about_modal_canva_title: "Arbeit mit Canva",
-      about_modal_canva_caption: "Zur Demonstration meiner grafischen Fähigkeiten habe ich dieses Bild herbeigezaubert.",
+      about_modal_canva_caption:
+        "Zur Demonstration meiner grafischen Fähigkeiten habe ich dieses Bild herbeigezaubert.",
       // Impressum
       imprint_title: "Impressum",
       imprint_contact_heading: "Kontakt",
@@ -241,17 +292,24 @@
       imprint_li_status: "HTTP-Statuscode,",
       imprint_li_data_amount: "übertragene Datenmenge,",
       imprint_li_browser: "und Informationen zu Browser und Betriebssystem.",
-      imprint_hosting_p1: 'Das ist erforderlich, um die Website anzuzeigen und die Stabilität und Sicherheit zu gewährleisten.<br />Dies entspricht meinem berechtigten Interesse im Sinne des Art. 6 Abs. 1 S. 1 lit. f DSGVO.',
+      imprint_hosting_p1:
+        "Das ist erforderlich, um die Website anzuzeigen und die Stabilität und Sicherheit zu gewährleisten.<br />Dies entspricht meinem berechtigten Interesse im Sinne des Art. 6 Abs. 1 S. 1 lit. f DSGVO.",
       imprint_hosting_p2: "Es erfolgt kein Tracking und ich habe auf diese Daten keinen direkten Zugriff.",
       imprint_hosting_p3: "Ich setze für die Zurverfügungstellung der Website folgenden Hoster ein:",
-      imprint_hosting_p4: "Dieser ist Empfänger Ihrer personenbezogenen Daten. Dies entspricht meinem berechtigten Interesse im Sinne des Art. 6 Abs. 1 S. 1 lit. f DSGVO, selbst keinen Server in meinen Räumlichkeiten vorhalten zu müssen. Serverstandort ist USA.",
-      imprint_hosting_p5: "Weitere Informationen zu Widerspruchs- und Beseitigungsmöglichkeiten gegenüber GitHub finden Sie unter:",
-      imprint_hosting_p6: "Sie haben das Recht der Verarbeitung zu widersprechen. Ob der Widerspruch erfolgreich ist, ist im Rahmen einer Interessenabwägung zu ermitteln.",
+      imprint_hosting_p4:
+        "Dieser ist Empfänger Ihrer personenbezogenen Daten. Dies entspricht meinem berechtigten Interesse im Sinne des Art. 6 Abs. 1 S. 1 lit. f DSGVO, selbst keinen Server in meinen Räumlichkeiten vorhalten zu müssen. Serverstandort ist USA.",
+      imprint_hosting_p5:
+        "Weitere Informationen zu Widerspruchs- und Beseitigungsmöglichkeiten gegenüber GitHub finden Sie unter:",
+      imprint_hosting_p6:
+        "Sie haben das Recht der Verarbeitung zu widersprechen. Ob der Widerspruch erfolgreich ist, ist im Rahmen einer Interessenabwägung zu ermitteln.",
       imprint_hosting_p7: "Die Daten werden gelöscht, sobald der Zweck der Verarbeitung entfällt.",
-      imprint_hosting_p8: "Die Verarbeitung der unter diesem Abschnitt angegebenen Daten ist weder gesetzlich noch vertraglich vorgeschrieben. Die Funktionsfähigkeit der Website ist ohne die Verarbeitung nicht gewährleistet.",
-      imprint_hosting_p9: "GitHub hat Compliance-Maßnahmen für internationale Datenübermittlungen umgesetzt. Diese gelten für alle weltweiten Aktivitäten, bei denen GitHub personenbezogene Daten von natürlichen Personen in der EU verarbeitet. Diese Maßnahmen basieren auf den EU-Standardvertragsklauseln (SCCs). Weitere Informationen finden Sie unter:",
+      imprint_hosting_p8:
+        "Die Verarbeitung der unter diesem Abschnitt angegebenen Daten ist weder gesetzlich noch vertraglich vorgeschrieben. Die Funktionsfähigkeit der Website ist ohne die Verarbeitung nicht gewährleistet.",
+      imprint_hosting_p9:
+        "GitHub hat Compliance-Maßnahmen für internationale Datenübermittlungen umgesetzt. Diese gelten für alle weltweiten Aktivitäten, bei denen GitHub personenbezogene Daten von natürlichen Personen in der EU verarbeitet. Diese Maßnahmen basieren auf den EU-Standardvertragsklauseln (SCCs). Weitere Informationen finden Sie unter:",
       imprint_legal_h: "Rechtliche Hinweise",
-      imprint_legal_p1_pre: 'Grundsätzlich ist ein Auftragsverarbeitungsvertrag mit dem Hoster abzuschließen. Das bayerische Landesamt für Datenschutzaufsicht hat für das Hosting rein statischer Websites eine Ausnahme gemacht. Für den Fall, dass die Webseite der Selbstdarstellung dient, z.B. von Vereinen oder Kleinunternehmen, keine personenbezogenen Daten an den Betreiber fließen und kein Tracking stattfindet, liegt keine Auftragsverarbeitung vor. Weiter heißt es: „Die Tatsache, dass auch beim Hosting von statischen Webseiten zwangsläufig IP-Adressen, d.h. personenbezogene Daten, verarbeitet werden müssen, führt nicht zur Annahme einer Auftragsverarbeitung. Das wäre nicht sachgerecht. Die (kurzfristige) IP-Adressenspeicherung ist vielmehr noch der TK-Zugangsvermittlung des Website-Hosters nach dem TKG zuzurechnen und dient in erster Linie Sicherheitszwecken des Hosters."',
+      imprint_legal_p1_pre:
+        'Grundsätzlich ist ein Auftragsverarbeitungsvertrag mit dem Hoster abzuschließen. Das bayerische Landesamt für Datenschutzaufsicht hat für das Hosting rein statischer Websites eine Ausnahme gemacht. Für den Fall, dass die Webseite der Selbstdarstellung dient, z.B. von Vereinen oder Kleinunternehmen, keine personenbezogenen Daten an den Betreiber fließen und kein Tracking stattfindet, liegt keine Auftragsverarbeitung vor. Weiter heißt es: „Die Tatsache, dass auch beim Hosting von statischen Webseiten zwangsläufig IP-Adressen, d.h. personenbezogene Daten, verarbeitet werden müssen, führt nicht zur Annahme einer Auftragsverarbeitung. Das wäre nicht sachgerecht. Die (kurzfristige) IP-Adressenspeicherung ist vielmehr noch der TK-Zugangsvermittlung des Website-Hosters nach dem TKG zuzurechnen und dient in erster Linie Sicherheitszwecken des Hosters."',
       imprint_legal_p1_post: "Ich gehe davon aus, dass diese Ausnahme auf GitHub Pages anzuwenden ist.",
       imprint_source: "Quelle:",
     },
@@ -263,6 +321,12 @@
       nav_certificates: "Certificates",
       nav_education: "Education",
       nav_contact: "Contact",
+      // 404
+      error_404_heading: "Page Not Found",
+      error_404_desc: "This page doesn't exist – but here are a few places that do:",
+      error_404_home: "Go to Homepage",
+      error_404_skills: "Technical Skills",
+      error_404_about: "About this Site",
       // Hero
       hero_greeting: "Hello, I'm Özgün.<br />Data Analyst.<br />",
       hero_cta: "Get in touch",
@@ -291,8 +355,10 @@
       career_axa_location: "Cologne",
       career_axa_dept: "AXA Germany › Property Insurance › Claims › Analytics & Steering",
       career_axa_li1: "Analysis and processing of claims data to support strategic and operational decisions",
-      career_axa_li2: "Development of Power BI dashboards with approximately 200 daily views, significantly reducing ad-hoc requests",
-      career_axa_li3: "Design and optimization of ETL processes in Snowflake for automated data provisioning with integrated data quality checks and scheduling",
+      career_axa_li2:
+        "Development of Power BI dashboards with approximately 200 daily views, significantly reducing ad-hoc requests",
+      career_axa_li3:
+        "Design and optimization of ETL processes in Snowflake for automated data provisioning with integrated data quality checks and scheduling",
       internship_badge: "Internship",
       career_henkel_dept: "Henkel Germany › Adhesive Technologies › Customer Service › Automotive & Aerospace",
       career_henkel_date: "December 2021 - June 2022",
@@ -325,7 +391,8 @@
       edu_hhu_name: "Heinrich Heine University",
       edu_hhu_li1: "GPA: 2.2 (German scale)",
       edu_hhu_li2: "Elective modules: Accounting, Accounting Seminar, Management, Data Analysis, Econometrics",
-      edu_hhu_li3: "Bachelor's thesis: That's too much Information!? What Big Data means for management accounting and management accountants",
+      edu_hhu_li3:
+        "Bachelor's thesis: That's too much Information!? What Big Data means for management accounting and management accountants",
       edu_gym_date: "September 2009 – July 2017",
       edu_abitur: "Abitur (High School Diploma)",
       edu_gym_li1: "GPA: 1.6 (German scale)",
@@ -344,38 +411,62 @@
       skills_strength: "Strength",
       skills_where: "Where I've used it",
       // SQL
-      sql_p1: "I consider SQL one of my strengths and favorite tasks at work. I enjoy writing longer, more complex scripts with multiple CTEs or interdependent views.",
-      sql_p2: "I primarily use SQL to build data pipelines for dashboards. This includes not only data retrieval but also more complex transformations. I can leverage all the advantages SQL offers — including window functions in addition to standard functions.",
-      sql_p3: "Professionally, I work with Snowflake. I appreciate being able to use Snowflake-specific features, such as <code>QUALIFY</code> to filter columns resulting from window functions. Another example is <code>GROUP BY ALL</code>, which avoids having to list all grouping columns in <code>GROUP BY</code> statements.",
+      sql_p1:
+        "I consider SQL one of my strengths and favorite tasks at work. I enjoy writing longer, more complex scripts with multiple CTEs or interdependent views.",
+      sql_p2:
+        "I primarily use SQL to build data pipelines for dashboards. This includes not only data retrieval but also more complex transformations. I can leverage all the advantages SQL offers — including window functions in addition to standard functions.",
+      sql_p3:
+        "Professionally, I work with Snowflake. I appreciate being able to use Snowflake-specific features, such as <code>QUALIFY</code> to filter columns resulting from window functions. Another example is <code>GROUP BY ALL</code>, which avoids having to list all grouping columns in <code>GROUP BY</code> statements.",
       // Power BI
-      powerbi_p1: "Over the past few years, I've had the opportunity to work extensively with Power BI. I've come to appreciate it, but I also regularly get frustrated with its quirks.",
-      powerbi_p2: "I particularly enjoy building automated Power BI apps with low maintenance requirements. I write measures in a structured way, calculating only what I can't already provide in the data pipeline — I deliberately avoid calculated columns.",
-      powerbi_p3: "I place great importance on design and try to optimize the user experience through fast loading times. I've already implemented features like field parameters for user-configurable visualizations and map visualizations down to the building level.",
+      powerbi_p1:
+        "Over the past few years, I've had the opportunity to work extensively with Power BI. I've come to appreciate it, but I also regularly get frustrated with its quirks.",
+      powerbi_p2:
+        "I particularly enjoy building automated Power BI apps with low maintenance requirements. I write measures in a structured way, calculating only what I can't already provide in the data pipeline — I deliberately avoid calculated columns.",
+      powerbi_p3:
+        "I place great importance on design and try to optimize the user experience through fast loading times. I've already implemented features like field parameters for user-configurable visualizations and map visualizations down to the building level.",
       // Python
-      python_p1: "I've enjoyed working with Python since my university days. Professionally, I use Python mainly where SQL reaches its limits.",
-      python_p2: "My work primarily involves the classic data processing libraries such as Pandas and NumPy, as well as Plotly for visualizations.",
-      python_p3: "Personally, I've also worked with Streamlit on several occasions. It makes it easy to visualize Python results interactively in a browser — for example, an analysis of my bank account expenses that I regularly track with it.",
+      python_p1:
+        "I've enjoyed working with Python since my university days. Professionally, I use Python mainly where SQL reaches its limits.",
+      python_p2:
+        "My work primarily involves the classic data processing libraries such as Pandas and NumPy, as well as Plotly for visualizations.",
+      python_p3:
+        "Personally, I've also worked with Streamlit on several occasions. It makes it easy to visualize Python results interactively in a browser — for example, an analysis of my bank account expenses that I regularly track with it.",
       // Git
-      git_p1: "I use Git and GitHub for version control at work. I've come to greatly appreciate GitHub and wouldn't want to give up its benefits.",
-      git_p2: "I can also work via the CLI, but mostly use PyCharm's Git integration. I'm confident with common commands, and situations like merge conflicts rarely pose a problem.",
+      git_p1:
+        "I use Git and GitHub for version control at work. I've come to greatly appreciate GitHub and wouldn't want to give up its benefits.",
+      git_p2:
+        "I can also work via the CLI, but mostly use PyCharm's Git integration. I'm confident with common commands, and situations like merge conflicts rarely pose a problem.",
       // Excel
-      excel_p1: "After working with Excel on and off over the years, I decided to deepen my skills with an intensive Udemy course. This allowed me to discover its strengths and expand my abilities.",
-      excel_p2: "As an intern at Henkel, I was able to put these skills to use and built a reputation within the team as the go-to person for Excel questions.",
-      excel_p3: "Nowadays, I work much less intensively with Excel. However, the tool still comes into regular use for quick calculations and classic use cases.",
+      excel_p1:
+        "After working with Excel on and off over the years, I decided to deepen my skills with an intensive Udemy course. This allowed me to discover its strengths and expand my abilities.",
+      excel_p2:
+        "As an intern at Henkel, I was able to put these skills to use and built a reputation within the team as the go-to person for Excel questions.",
+      excel_p3:
+        "Nowadays, I work much less intensively with Excel. However, the tool still comes into regular use for quick calculations and classic use cases.",
       // PowerPoint
-      ppt_p1: "PowerPoint has been part of my life since school — from simple presentations to structured talks during my studies and at work.",
-      ppt_p2: "During my internship at Henkel, I regularly used PowerPoint to present analyses and results clearly and engagingly.",
-      ppt_p3: "Nowadays I use PowerPoint less frequently, as I increasingly prepare content directly in interactive dashboards or reports.",
+      ppt_p1:
+        "PowerPoint has been part of my life since school — from simple presentations to structured talks during my studies and at work.",
+      ppt_p2:
+        "During my internship at Henkel, I regularly used PowerPoint to present analyses and results clearly and engagingly.",
+      ppt_p3:
+        "Nowadays I use PowerPoint less frequently, as I increasingly prepare content directly in interactive dashboards or reports.",
       // Streamlit
-      streamlit_p1: "I use Streamlit exclusively for personal projects — as a quick way to make Python analyses interactive and explorable.",
-      streamlit_p2: "Projects I've built include an app for analyzing my personal finances and a dashboard that evaluates my chess.com profile and games.",
-      streamlit_p3: "I don't use Streamlit professionally — it's a tool for me to quickly implement ideas and explore data for my own questions.",
+      streamlit_p1:
+        "I use Streamlit exclusively for personal projects — as a quick way to make Python analyses interactive and explorable.",
+      streamlit_p2:
+        "Projects I've built include an app for analyzing my personal finances and a dashboard that evaluates my chess.com profile and games.",
+      streamlit_p3:
+        "I don't use Streamlit professionally — it's a tool for me to quickly implement ideas and explore data for my own questions.",
       // HTML & CSS
-      htmlcss_p1: "While working on this website, I've engaged deeply with HTML and CSS. I appreciate the creative possibilities that building this site offers.",
-      htmlcss_p2: "Also noteworthy is how my understanding of how websites are structured has grown during this time. I've also had touchpoints with JavaScript — though I haven't deliberately pursued a deeper understanding of it.",
+      htmlcss_p1:
+        "While working on this website, I've engaged deeply with HTML and CSS. I appreciate the creative possibilities that building this site offers.",
+      htmlcss_p2:
+        "Also noteworthy is how my understanding of how websites are structured has grown during this time. I've also had touchpoints with JavaScript — though I haven't deliberately pursued a deeper understanding of it.",
       // Tableau
-      tableau_p1: "I got to know Tableau through the Google Data Analytics certificate, where it was used as the primary visualization tool.",
-      tableau_p2: "I learned the basics and created my first dashboards — but I haven't actively used Tableau professionally or in personal projects since.",
+      tableau_p1:
+        "I got to know Tableau through the Google Data Analytics certificate, where it was used as the primary visualization tool.",
+      tableau_p2:
+        "I learned the basics and created my first dashboards — but I haven't actively used Tableau professionally or in personal projects since.",
       // Skill pills
       skill_axa: "Data Analyst at AXA",
       skill_datacamp_pill: "DataCamp: Data Analyst Professional",
@@ -391,36 +482,50 @@
       about_section1_title: "How It All Began",
       about_motivation_heading: "Motivation",
       about_motivation_p1: "I created my own website for the application phase in May 2022.",
-      about_motivation_p2: "The reason was that I wanted to include some content in my CV that no longer fit. This included links to individual projects from my portfolio as well as descriptions of courses I had taken outside of my studies. I also found the idea of having my own website exciting and wanted another way to stand out from the crowd.",
+      about_motivation_p2:
+        "The reason was that I wanted to include some content in my CV that no longer fit. This included links to individual projects from my portfolio as well as descriptions of courses I had taken outside of my studies. I also found the idea of having my own website exciting and wanted another way to stand out from the crowd.",
       about_how_built_heading: "How I Built the Site",
-      about_how_built_p1: "I put the site together using Google Sites. This allowed me to build a page quickly and without much technical effort.",
-      about_how_built_p2: "I bought the domain through Google Domains and linked it to the site. The only cost the website incurred was €7 per year for the domain.",
+      about_how_built_p1:
+        "I put the site together using Google Sites. This allowed me to build a page quickly and without much technical effort.",
+      about_how_built_p2:
+        "I bought the domain through Google Domains and linked it to the site. The only cost the website incurred was €7 per year for the domain.",
       about_old_portfolio_heading: "My Portfolio Back Then",
-      about_old_portfolio_p1: "My portfolio was essentially based on my own data. I had requested data from various services and analyzed it.",
-      about_old_portfolio_p2: "I analyzed my Amazon data with Excel and PowerPoint. I used Tableau to visualize my Netflix and Spotify data. I also uploaded the SQL queries and PowerPoint presentation from my DataCamp certification.",
+      about_old_portfolio_p1:
+        "My portfolio was essentially based on my own data. I had requested data from various services and analyzed it.",
+      about_old_portfolio_p2:
+        "I analyzed my Amazon data with Excel and PowerPoint. I used Tableau to visualize my Netflix and Spotify data. I also uploaded the SQL queries and PowerPoint presentation from my DataCamp certification.",
       about_old_portfolio_p3: "Currently, I no longer see the need for a portfolio.",
       about_google_sites_start: "The Beginning with Google Sites",
       about_portfolio_box_title: "My Portfolio Back Then",
       about_spotify_box_title: "Spotify Dashboard",
       about_modal_gs_title: "The Beginning with Google Sites",
-      about_modal_gs_caption: "This is what the homepage looked like. I already had the domain at that time, so it showed <code>www.özgüncakir.de</code> at the top.",
+      about_modal_gs_caption:
+        "This is what the homepage looked like. I already had the domain at that time, so it showed <code>www.özgüncakir.de</code> at the top.",
       about_modal_portfolio_title: "My Portfolio Back Then",
       about_modal_portfolio_caption: "By the way, I designed the images using Canva.",
       about_modal_spotify_title: "Spotify Dashboard",
-      about_modal_spotify_caption: "My dashboards look quite different nowadays. I haven't worked with Tableau since then either.",
+      about_modal_spotify_caption:
+        "My dashboards look quite different nowadays. I haven't worked with Tableau since then either.",
       about_section2_title: "The Next Step",
       about_end_heading: "The End of the Old Site",
       about_end_p1: "After a successful application phase, my website had served its purpose.",
-      about_end_p2: "However, ambition took over — I wanted to build my own site from scratch rather than just clicking one together. I also wanted more design flexibility and mobile optimization. I enjoy projects like this: sitting down and wrestling with technical challenges while building something. So I started this new site in mid-2022 and slowly worked on it in many small steps.",
+      about_end_p2:
+        "However, ambition took over — I wanted to build my own site from scratch rather than just clicking one together. I also wanted more design flexibility and mobile optimization. I enjoy projects like this: sitting down and wrestling with technical challenges while building something. So I started this new site in mid-2022 and slowly worked on it in many small steps.",
       about_webflow_heading: "New Attempt with Webflow",
-      about_webflow_p1: "I first tried to build the new site with Webflow. While Webflow offers far more features than Google Sites, it still didn't give me enough flexibility in terms of customization. I also didn't want to rely on a website builder again. All of this led me to one day feel ready to build a site myself and write the code for it.",
+      about_webflow_p1:
+        "I first tried to build the new site with Webflow. While Webflow offers far more features than Google Sites, it still didn't give me enough flexibility in terms of customization. I also didn't want to rely on a website builder again. All of this led me to one day feel ready to build a site myself and write the code for it.",
       about_outdated_heading: "Decisions That Have Since Been Revised",
-      about_outdated_p1: "Initially the site was much more colorful, but since then I've reduced the variety of colors. This was partly to make the site look more professional and also to make it easier to introduce a dark mode.",
-      about_outdated_p3: "The site used to have a sidebar instead of a top navigation bar. I moved the sidebar to the top to enable a more consistent design regardless of screen size. This also brought the content more into focus.",
+      about_outdated_p1:
+        "Initially the site was much more colorful, but since then I've reduced the variety of colors. This was partly to make the site look more professional and also to make it easier to introduce a dark mode.",
+      about_outdated_p3:
+        "The site used to have a sidebar instead of a top navigation bar. I moved the sidebar to the top to enable a more consistent design regardless of screen size. This also brought the content more into focus.",
       about_productivity_heading: "Going Live",
-      about_productivity_p1: "I had the first version of the site deployed back in September 2022. This ran on GitHub Pages, allowing me to host the site easily and for free.",
-      about_productivity_p2: "I've since archived the associated repository. It was full of small commits, some of which were a bit questionable. I may have also tested on production. Naturally, I wanted to cover my tracks and start fresh with a new repository.",
-      about_productivity_p3: "I temporarily took the site offline. This was because it was incomplete for a long time and I wanted to force myself to finally finish it.",
+      about_productivity_p1:
+        "I had the first version of the site deployed back in September 2022. This ran on GitHub Pages, allowing me to host the site easily and for free.",
+      about_productivity_p2:
+        "I've since archived the associated repository. It was full of small commits, some of which were a bit questionable. I may have also tested on production. Naturally, I wanted to cover my tracks and start fresh with a new repository.",
+      about_productivity_p3:
+        "I temporarily took the site offline. This was because it was incomplete for a long time and I wanted to force myself to finally finish it.",
       about_modal_gs_sep_title: "Breaking Up with Google Sites",
       about_webflow_new_start: "A Fresh Start with Webflow",
       about_sidebar_title: "Site with Sidebar",
@@ -460,7 +565,8 @@
       imprint_controller_address: "Özgün Cakir<br />Schumannstr. 20<br />40237 Düsseldorf, Germany",
       imprint_email_line: 'Email address: <a href="mailto:oezguen.cakir@posteo.de">oezguen.cakir@posteo.de</a>',
       imprint_hosting_h: "Hosting",
-      imprint_hosting_intro: "My hosting provider collects the following data in so-called log files, which your browser transmits:",
+      imprint_hosting_intro:
+        "My hosting provider collects the following data in so-called log files, which your browser transmits:",
       imprint_li_ip: "IP address,",
       imprint_li_referer: "the address of the previously visited website (Referer request header),",
       imprint_li_datetime: "date and time of the request,",
@@ -469,17 +575,23 @@
       imprint_li_status: "HTTP status code,",
       imprint_li_data_amount: "amount of data transferred,",
       imprint_li_browser: "and information about browser and operating system.",
-      imprint_hosting_p1: 'This is necessary to display the website and to ensure its stability and security.<br />This corresponds to my legitimate interest within the meaning of Art. 6 para. 1 s. 1 lit. f GDPR.',
+      imprint_hosting_p1:
+        "This is necessary to display the website and to ensure its stability and security.<br />This corresponds to my legitimate interest within the meaning of Art. 6 para. 1 s. 1 lit. f GDPR.",
       imprint_hosting_p2: "No tracking takes place and I have no direct access to this data.",
       imprint_hosting_p3: "I use the following hosting provider to make this website available:",
-      imprint_hosting_p4: "This entity is the recipient of your personal data. This corresponds to my legitimate interest within the meaning of Art. 6 para. 1 s. 1 lit. f GDPR in not having to operate a server on my own premises. Server location is the USA.",
+      imprint_hosting_p4:
+        "This entity is the recipient of your personal data. This corresponds to my legitimate interest within the meaning of Art. 6 para. 1 s. 1 lit. f GDPR in not having to operate a server on my own premises. Server location is the USA.",
       imprint_hosting_p5: "Further information on options to object and for removal against GitHub can be found at:",
-      imprint_hosting_p6: "You have the right to object to the processing. Whether the objection is successful is to be determined through a balancing of interests.",
+      imprint_hosting_p6:
+        "You have the right to object to the processing. Whether the objection is successful is to be determined through a balancing of interests.",
       imprint_hosting_p7: "The data will be deleted once the purpose of the processing no longer applies.",
-      imprint_hosting_p8: "The processing of the data specified in this section is neither legally nor contractually required. The functionality of the website cannot be guaranteed without this processing.",
-      imprint_hosting_p9: "GitHub has implemented compliance measures for international data transfers. These apply to all global activities in which GitHub processes personal data of natural persons in the EU. These measures are based on the EU Standard Contractual Clauses (SCCs). Further information can be found at:",
+      imprint_hosting_p8:
+        "The processing of the data specified in this section is neither legally nor contractually required. The functionality of the website cannot be guaranteed without this processing.",
+      imprint_hosting_p9:
+        "GitHub has implemented compliance measures for international data transfers. These apply to all global activities in which GitHub processes personal data of natural persons in the EU. These measures are based on the EU Standard Contractual Clauses (SCCs). Further information can be found at:",
       imprint_legal_h: "Legal Notes",
-      imprint_legal_p1_pre: 'In general, a data processing agreement must be concluded with the hosting provider. The Bavarian State Office for Data Protection Supervision has made an exception for the hosting of purely static websites. In cases where the website serves self-presentation purposes, e.g. for associations or small businesses, no personal data flows to the operator, and no tracking takes place, there is no data processing on behalf. It further states: "The fact that IP addresses, i.e. personal data, must inevitably be processed when hosting static websites does not lead to the assumption of data processing on behalf. That would not be appropriate. The (short-term) storage of IP addresses is rather still attributable to the telecommunications access mediation of the website host under the TKG and primarily serves security purposes of the host."',
+      imprint_legal_p1_pre:
+        'In general, a data processing agreement must be concluded with the hosting provider. The Bavarian State Office for Data Protection Supervision has made an exception for the hosting of purely static websites. In cases where the website serves self-presentation purposes, e.g. for associations or small businesses, no personal data flows to the operator, and no tracking takes place, there is no data processing on behalf. It further states: "The fact that IP addresses, i.e. personal data, must inevitably be processed when hosting static websites does not lead to the assumption of data processing on behalf. That would not be appropriate. The (short-term) storage of IP addresses is rather still attributable to the telecommunications access mediation of the website host under the TKG and primarily serves security purposes of the host."',
       imprint_legal_p1_post: "I assume that this exception applies to GitHub Pages.",
       imprint_source: "Source:",
     },
