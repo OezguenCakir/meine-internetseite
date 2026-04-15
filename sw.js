@@ -1,11 +1,12 @@
 // Cache-Version hochzählen wenn Assets sich ändern
-const CACHE_VERSION = "v1";
+const CACHE_VERSION = "v3";
 const CACHE_NAME = `static-${CACHE_VERSION}`;
 
 // Kritische Assets beim SW-Install sofort cachen
 const PRECACHE_ASSETS = [
   "/",
   "/index.html",
+  "/404.html",
   "/style/style.css",
   "/style/dark-mode.css",
   "/style/hover-min.css",
@@ -14,6 +15,12 @@ const PRECACHE_ASSETS = [
   "/scripts/toggle_language.js",
   "/scripts/hamburger.js",
   "/scripts/scroll_to_top.js",
+  "/scripts/chart_config.js",
+  "/scripts/hash_scroll.js",
+  "/scripts/sw_register.js",
+  "/scripts/year_update.js",
+  "/translations/de.js",
+  "/translations/en.js",
   "/assets/main/favicon-96x96.webp",
   "/assets/main/favicon-256x256.webp",
   "/assets/main/profile-picture.webp",

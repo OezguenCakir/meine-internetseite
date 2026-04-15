@@ -94,6 +94,22 @@ a:any-link {
   align-items: center;
 }
 
+.nav-toggle-btn {
+  background: none;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  padding: 8px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-toggle-btn--lang {
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
 #scroll-to-top {
   position: fixed;
   bottom: 32px;
@@ -141,6 +157,11 @@ a:any-link {
   -webkit-transition: opacity 0.2s ease;
   transition: opacity 0.2s ease;
   overflow: hidden;
+}
+
+.seite {
+  content-visibility: auto;
+  contain-intrinsic-size: auto 500px;
 }
 
 .banner {

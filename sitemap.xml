@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+
+  <url>
+    <loc>https://www.xn--zgncakir-m4a6d.de/</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.xn--zgncakir-m4a6d.de/?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.xn--zgncakir-m4a6d.de/?lang=en"/>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <url>
+    <loc>https://www.xn--zgncakir-m4a6d.de/pages/skills.html</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.xn--zgncakir-m4a6d.de/pages/skills.html?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.xn--zgncakir-m4a6d.de/pages/skills.html?lang=en"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.xn--zgncakir-m4a6d.de/pages/about.html</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.xn--zgncakir-m4a6d.de/pages/about.html?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.xn--zgncakir-m4a6d.de/pages/about.html?lang=en"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://www.xn--zgncakir-m4a6d.de/pages/imprint.html</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.xn--zgncakir-m4a6d.de/pages/imprint.html?lang=de"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.xn--zgncakir-m4a6d.de/pages/imprint.html?lang=en"/>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+
+</urlset>
