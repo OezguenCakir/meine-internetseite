@@ -246,11 +246,9 @@ window._translations.de = {
   about_hover_text:
     'Für die Schrumpfen- und Vergrößerungs-Animation habe ich <a href="https://github.com/IanLunn/Hover" target="_blank" rel="noopener noreferrer">Hover.css von Ian Lunn</a> verwendet. Die Schrumpfen-Animation gefällt mir so sehr, dass ich sie fast überall verwendet habe.',
   about_modal_dark_mode_title: "Seite im Dark Mode",
-  about_modal_dark_mode_caption:
-    "Stellt gerne bei euch den Dark-Modus ein und bewundert die Seite gleich noch einmal.",
+  about_modal_dark_mode_caption: "Stellt gerne bei euch den Dark-Modus ein und bewundert die Seite gleich noch einmal.",
   about_modal_canva_title: "Arbeit mit Canva",
-  about_modal_canva_caption:
-    "Zur Demonstration meiner grafischen Fähigkeiten habe ich dieses Bild herbeigezaubert.",
+  about_modal_canva_caption: "Zur Demonstration meiner grafischen Fähigkeiten habe ich dieses Bild herbeigezaubert.",
   // Impressum
   imprint_title: "Impressum",
   imprint_contact_heading: "Kontakt",

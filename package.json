@@ -3,6 +3,12 @@
   "private": true,
   "devDependencies": {
     "htmlhint": "^1.1.4",
+    "husky": "^9.1.7",
     "prettier": "^3.5.3"
+  },
+  "scripts": {
+    "format": "prettier --write '**/*.{html,css,js,json}'",
+    "format:check": "prettier --check '**/*.{html,css,js,json}'",
+    "prepare": "husky"
   }
 }
