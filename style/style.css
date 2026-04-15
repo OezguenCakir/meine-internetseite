@@ -94,19 +94,40 @@ a:any-link {
   align-items: center;
 }
 
-.nav-toggle-btn {
-  background: none;
-  border: none;
+button.nav-toggle-btn {
+  background: rgba(255, 255, 255, 0.12);
+  border: 1px solid rgba(255, 255, 255, 0.22);
+  border-radius: 6px;
   color: #fff;
   cursor: pointer;
-  padding: 8px 10px;
+  padding: 5px 10px;
   display: flex;
   align-items: center;
   justify-content: center;
+  gap: 5px;
+  line-height: 1;
+  transition:
+    background 0.15s ease,
+    border-color 0.15s ease;
 }
 
-.nav-toggle-btn--lang {
-  font-size: 0.85rem;
+button.nav-toggle-btn svg {
+  display: block;
+  flex-shrink: 0;
+  max-height: 16px;
+  width: auto;
+  align-self: center;
+}
+
+button.nav-toggle-btn:hover,
+button.nav-toggle-btn:focus-visible {
+  background: rgba(255, 255, 255, 0.24);
+  border-color: rgba(255, 255, 255, 0.4);
+  outline: none;
+}
+
+button.nav-toggle-btn--lang {
+  font-size: 0.65rem;
   font-weight: 600;
 }
 
